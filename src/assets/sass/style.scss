@@ -1,0 +1,112 @@
+@import "base/_fonts.scss";
+@import "abstract/_setup.scss";
+
+$space-left: calc(((100vw - 1280px) / 2));
+$width-left: calc((1280px + (100vw - 1280px) / 2));
+@import "../../../node_modules/holygrailcss/scss/style.scss";
+// -FASE 4 : OVERRIDE YOUR HOLYGRAIL
+
+@import "./header2.scss";
+@import "./_menu.scss";
+@import "./_swiper.scss";
+@import "./_video.scss";
+@import "./_blog.scss";
+@import "./_brands.scss";
+@import "./_resize.scss";
+@import "./_dummyproduct.scss";
+
+@import "./theme.scss";
+
+
+@import "parrillas/_all.scss";
+
+
+//@import "parrillas/*";
+$primary-color: var(--primary-color);
+$c-primary: var(--c-primary);
+$c-secondary: var(--c-secondary);
+$bg-dark: var(--bg-dark);
+$c-bg-dark: var(--c-bg-dark);
+$bg-light: var(--bg-light);
+$c-bg-light: var(--c-bg-light);
+
+
+
+body {
+  overflow-x: hidden;
+  color: $primary-color;
+  scroll-behavior: smooth;
+}
+p {
+  font-size: inherit;
+}
+strong {
+  color: $primary;
+}
+.bold {
+  @include font-bold;
+}
+b {
+  color: $c-secondary;
+}
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+.bg-dark {
+  background-color: $bg-dark;
+  color: $c-bg-dark;
+}
+.bg-light {
+  background-color: $bg-light;
+  color: $c-bg-light;
+}
+.has-light {
+  a {
+    color: white;
+  }
+}
+
+
+
+
+.header-img {
+  position: relative;
+}
+
+
+
+.ttc {
+  text-transform: capitalize;
+}
+.container-full {
+  max-width: 1600px;
+}
+.product-tag {
+  font-family: "dutti-daily-bold";
+  font-size: 14px;
+  color: #292929;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+.template-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0 8px;
+
+  background-color: #a1bfa0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+.grid-product, ul {
+  position: relative;
+}
+
+
+
+

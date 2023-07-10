@@ -1,0 +1,85 @@
+{
+  "author": "manuel ruiz",
+  "authorweb": "digitalstrategy.es",
+  "authorinstagram": "manuel ruiz",
+
+  "title": "Estructuras modulares",
+  "lang": "es-es",
+  "footer": "",
+  "url": "digitalstrategy.es",
+  "empresa": "Estructuras modulares",
+
+  "imageDir": "/assets/static/",
+
+  "tag_manager": " ",
+
+  "about": "about",
+  "services": "Sistemas",
+  "blog": "Blog",
+
+
+  "brands": "1,2,3,4,5,6",
+
+  "galeria": "1,2,3,4,5,6,7,8",
+
+  "contact_img":"/assets/static/images/1.jpg",
+
+
+
+  "search_console":"search_console",
+  "empresa_copyright":" © 2023 empresa_copyright",
+  "empresa_legal_titular": "empresa_legal_titular ",
+  "empresa_legal": "Empresa_legal_largo",
+  "empresa_corto":  "Empresa_corto",
+  "website": "www.design-systems.es",
+  "telefono":"+111",
+  "empresa_dni": "dni111",
+  "email":"design@gmail.com",
+  "link":"digitalstrategy.es",
+  "whatsapp": "+1111",
+  "codigopostal": "0000",
+  "direccion": " calle",
+  "ciudad": " barcelona",
+  "provincia": "Barcelona",
+  "actividad": " Estructuras modulares",
+
+  "c_primary": "#292929",
+  "c_secondary": "#292929",
+  "bg_dark": "#161616",
+  "c_bg_dark": "#f7f6f5",
+  "bg_light": "#efefef",
+  "c_bg_light": "#292929",
+  "btn_radius": "0",
+
+
+  "seo_title": "seo_title",
+  "seo_description":" seo_description",
+
+  "googlemaps_api": "",
+  "googlemaps_link": "",
+  "googlemaps_iframe":"",
+  
+  "social_linkedin":" https://www.linkedin.com/",
+  "social_youtube": "https://www.youtube.com/",
+  "social_instagram" : "https://www.instagram.com/",
+
+  "personas": [
+    { "imagen": "/assets/static/images/person1.jpg",
+      "nombre": "Persona 1",
+      "posicion": "Posición 1",
+      "descripcion": "Descripción 1"
+    },
+    {
+      "imagen": "/assets/static/images/person2.jpg",
+      "nombre": "Persona 2",
+      "posicion": "Posición 2",
+      "descripcion": "Descripción 2"
+    },
+    {
+      "imagen": "/assets/static/images/person3.jpg",
+      "nombre": "Persona 3",
+      "posicion": "Posición 3",
+      "descripcion": "Descripción 3"
+    }
+  ]
+}

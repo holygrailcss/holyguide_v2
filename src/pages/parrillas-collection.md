@@ -1,5 +1,5 @@
 ---
-layout: _parrillas-collection.njk
+layout: blogs/_parrillas-collection.njk
 permalink: /parrillas-collection/
 
 title: Parrillas

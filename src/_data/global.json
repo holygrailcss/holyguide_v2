@@ -81,5 +81,67 @@
       "posicion": "Posición 3",
       "descripcion": "Descripción 3"
     }
+  ],
+
+
+  "coloresPrimarios": [
+    { "hex": "#292929",
+      "variable": "#292929",
+      "font": "#292929",
+      "bg": "#292929"
+    },
+    { "hex": "#000000",
+      "variable": "#000000",
+      "font": "#000000",
+      "bg": "#000000"
+    },
+    { "hex": "#8e8e8e",
+      "variable": "#8e8e8e",
+      "font": "#8e8e8e",
+      "bg": "#8e8e8e"
+    }
+  ],
+
+
+  "coloresSemanticos": [
+    { "hex": "#292929",
+      "variable": "#292929",
+      "font": "#292929",
+      "bg": "#292929"
+    },
+    { "hex": "#000000",
+      "variable": "#000000",
+      "font": "#000000",
+      "bg": "#000000"
+    },
+    { "hex": "#8e8e8e",
+      "variable": "#8e8e8e",
+      "font": "#8e8e8e",
+      "bg": "#8e8e8e"
+    }
+  ],
+
+
+  "coloresFeel": [
+    { "hex": "#292929",
+      "variable": "#292929",
+      "font": "#292929",
+      "bg": "#292929"
+    },
+    { "hex": "#000000",
+      "variable": "#000000",
+      "font": "#000000",
+      "bg": "#000000"
+    },
+    { "hex": "#8e8e8e",
+      "variable": "#8e8e8e",
+      "font": "#8e8e8e",
+      "bg": "#8e8e8e"
+    }
   ]
+
+
+
+
+
 }

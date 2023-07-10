@@ -22,3 +22,6 @@ Como se mencionó, estos archivos están aquí para ayudarte a comenzar con el d
 ## Tutorial
 
 Puedes [ver este video](https://youtu.be/4wD00RT6d-g) para ver cómo Manuel utiliza Eleventy, Netlify y Netlify CMS para crear un sitio de blog completo construido completamente con archivos estáticos.
+
+
+https://www.tablesgenerator.com/markdown_tables

@@ -53,9 +53,10 @@
 
 {% set breadcrumbs = [] %}
 
-    {% include 'components/header.njk' %}
+    {% include 'components/menutop.njk' %}
+    {% include 'components/nav.njk' %}
 
-    <main class=" ">
+    <main class="main-widthsidebar ">
       {{ content | safe }}
     </main>
 

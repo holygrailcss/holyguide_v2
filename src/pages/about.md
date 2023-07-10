@@ -9,12 +9,6 @@ tags: ["Estructuras modulares", "diseño", "figma"]
 image: /assets/static/images/7.jpg
 imageAlt: Ilustración de un diseño de sistema
 
-presentacion: Crea un Design System efectivo para tu proyecto Crea un Design System efectivo para tu proyecto
-eleventyComputed:
-  metaTitle: Crea un Design System efectivo para tu proyecto | Design-Systems.es
-  metaDescription: Descubre cómo crear un Design System paso a paso. Aumenta la coherencia y eficiencia en tu proceso de diseño. 🚀 ¡Comienza ahora!
-  metaKeywords: "diseño, figma, Estructuras modulares"
-  metaRobots: "index, follow"
 ---
 
 # Cómo realizar un Design System efectivo

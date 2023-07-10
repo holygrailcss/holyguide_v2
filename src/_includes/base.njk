@@ -51,15 +51,13 @@
 
     <!-- End Google Tag Manager -->
   </head>
-<body class="contain {% if page.url == '/' or page.url == '/about/' %}home{% endif %}" >
+<body class="contain guide {% if page.url == '/' or page.url == '/about/' %}home{% endif %}" >
 
 {% set breadcrumbs = [] %}
 
-
-
-
-    {% include 'components/header.njk' %}
-    <main class=" ">
+    {% include 'components/menutop.njk' %}
+    {% include 'components/nav.njk' %}
+    <main class="main-widthsidebar "> 
       {{ content | safe }}
     </main>
 
@@ -94,6 +92,15 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+
+
+
+
+
+
 
       <script>
     var height;

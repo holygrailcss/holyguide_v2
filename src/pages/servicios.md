@@ -1,5 +1,5 @@
 ---
-layout: _servicios.njk
+layout: blogs/_servicios.njk
 permalink: /{{global.services}}/
 
 title:  Sistemas

@@ -1,5 +1,5 @@
 ---
-subtitle: Descubre los beneficios de un Design System para tu sitio web
+subtitle: XX falta texto descriptivo
 title: parrilla 1
 date: 2023-06-19
 fecha: 19 de junio de 2023

@@ -13031,7 +13031,7 @@ blockquote p br {
 
 .resize-mini-content-narrow {
   border: 1px solid #eaeaea;
-  padding: 0px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -349,3 +349,58 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px;
 }
+
+.code-view{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #eaeaea;
+  transition: .2s ease all;
+}
+
+
+.check-new{
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+border: 1px solid #a7a7a7;
+  border-radius:50px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  overflow: hidden;
+  cursor:pointer;
+  opacity: .6;
+  &:hover{
+    opacity: 1;
+
+  }
+
+  &:after{
+    content: '';
+    top: 0;
+    left: 6px;
+    transition: .2s ease all;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #a7a7a7;
+    
+    border-radius:50px;
+
+  }
+
+  .has-light &{
+
+    &:after{
+      content: '';
+      top: 0;
+      left: 30px;
+      position: absolute;
+
+  
+    }
+
+  }
+}

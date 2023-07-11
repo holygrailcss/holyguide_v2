@@ -70,7 +70,24 @@ $(document).ready(function () {
 
 
   initvideo();
+
+
+
 });
+
+
+$(".check-new").on("click", function (e) {
+  console.log("Esto funciona");
+
+  // Toggle class ".bg-dark" en el elemento padre
+  $(this.parentNode).toggleClass("bg-dark");
+  $(this.parentNode).toggleClass("has-light");
+
+
+  e.preventDefault();
+});
+
+
 
 function initvideo() {
   $(".action--play").click(function () {

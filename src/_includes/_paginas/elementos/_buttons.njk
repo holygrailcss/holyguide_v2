@@ -1,10 +1,25 @@
 ---
 layout: base.njk
 ---
+{% import "_macros/_helper.njk" as helper %}
+
 <div class="container-fluid">
   {% include '_components/hero.njk' %}
 </div>
 <div class="main-content innermarkdown ">{{ content | safe }}
+
+
+
+
+
+{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-secondary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %}
+{% endcall %}
+
+
+{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-secondary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %}
+{% endcall %}
+
+
   <div class="row">
     <div class="col-xs-12">
       <h3 class="h3"> Button</h3>

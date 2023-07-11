@@ -61,7 +61,7 @@ layout: base.njk
             </div>
         </div>
 
-        
+
         <section class="main-full">
             <div class="row bg-light">
                 <div class="col-xs-12  pt-64 pb-64">
@@ -75,9 +75,9 @@ layout: base.njk
 
 
 
-            {% for blog in collections.blog | reverse %}
+            {% for elemento in collections.elementos | reverse %}
 
-            {% include 'blog-loop.njk' %}
+            {% include 'elemento-loop.njk' %}
             {% endfor %}
 
         </ul>

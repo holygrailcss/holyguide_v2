@@ -5,7 +5,7 @@ $space-left: calc(((100vw - 1280px) / 2));
 $width-left: calc((1280px + (100vw - 1280px) / 2));
 @import "../../../node_modules/holygrailcss/scss/style.scss";
 // -FASE 4 : OVERRIDE YOUR HOLYGRAIL
-
+@import "./prism.scss";
 @import "./header2.scss";
 @import "./_menu.scss";
 @import "./_swiper.scss";
@@ -343,13 +343,3 @@ a {
   }
 }
 
-
-.guide code {
-  padding: 4px 12px;
-  border-radius: 6px;
-  font-size: 13px;
-  display: inline-block;
-  color: #fff;
-  background-color: #1e1e20;
-  border: 1px solid rgba(172,172,172,.6901960784);
-}

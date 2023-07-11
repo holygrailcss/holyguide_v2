@@ -77,10 +77,9 @@
   <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
   <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/atom-one-dark.css" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script src="https://holyguide.es/js/prism.js"></script>
 
   <script>
-    hljs.highlightAll();
 
     var height;
     interact(".resize")
@@ -137,7 +136,17 @@
       .on("resizeend", function (event) {
         event.target.classList.remove("resize-overlay");
       });
-  </script>
+
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+    // Inicializa Highlight.js
+    Prism.highlightAll();
+
+    
+  });
+    </script>
+
 </body>
 
 </html>

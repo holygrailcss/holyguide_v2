@@ -61,7 +61,14 @@ $("#menu-toggle").click(function () {
   $("body").toggleClass("menu-open");
 });
 
+
+  // Espera a que se cargue el documento antes de inicializar Highlight.js
+
+
+
 $(document).ready(function () {
+
+
   initvideo();
 });
 

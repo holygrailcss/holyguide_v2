@@ -1,6 +1,6 @@
 
 {
-	"layout": "blogs/_bloginner.njk",
+	"layout": "_blogs/_bloginner.njk",
 	"author": "Manuel Ruiz",
 	"tags": ["blog"],
 	"tag": "blog",

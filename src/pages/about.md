@@ -1,5 +1,5 @@
 ---
-layout: _about.njk
+layout: _paginas/_about.njk
 permalink: /about/
 
 subtitle: Evangelizadores

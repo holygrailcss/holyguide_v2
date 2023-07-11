@@ -1,8 +1,8 @@
 ---
-layout: foundations/_foundations.njk
+layout: _paginas/foundations/_foundations.njk
 permalink: /images/
 
-titulo: parrilla 1
+titulo: Imágenes
 descripcion: XX falta texto descriptivo
 
 

@@ -1,8 +1,8 @@
 ---
-layout: foundations/_foundations.njk
+layout: _paginas/foundations/_foundations.njk
 permalink: /ratios/
 
-titulo: parrilla 1
+titulo: Ratios
 descripcion: XX falta texto descriptivo
 
 

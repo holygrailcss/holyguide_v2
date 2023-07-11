@@ -1,8 +1,8 @@
 ---
-layout: _paginas/foundations/_flexbox.njk
-permalink: /flexbox/
+layout: _paginas/foundations/_tipografia.njk
+permalink: /tipografia/
 
-titulo: Flexbox
+titulo: Tipografias
 descripcion: XX falta texto descriptivo
 
 date: 2023-06-19

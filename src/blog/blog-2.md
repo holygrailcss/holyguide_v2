@@ -10,7 +10,7 @@ eleventyComputed:
   metaTitle: Guía completa para desarrollar un Design System efectivo
   metaDescription: Aprende cómo crear un Design System exitoso para tu proyecto. Descubre las mejores prácticas, herramientas y consejos para optimizar tu flujo de trabajo y mejorar la consistencia en el diseño. ¡Comienza a crear experiencias de usuario excepcionales con tu propio Design System!
   metaKeywords: "Estructuras modulares, diseño, figma"
-  metaRobots: "index, follow"
+  metaRobots: "noindex, nofollow"
 ---
 
 # Cómo crear un Design System exitoso

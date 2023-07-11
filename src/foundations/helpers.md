@@ -1,10 +1,9 @@
 ---
-layout: foundations/_foundations.njk
+layout: _paginas/foundations/_foundations.njk
 permalink: /helpers/
 
 titulo: Helpers
 descripcion: XX falta texto descriptivo
-
 
 date: Last Modified
 fecha: 19 de junio de 2023
@@ -15,7 +14,7 @@ eleventyComputed:
   metaTitle: Beneficios de un Design System | Mejora la coherencia y eficiencia de tu web
   metaDescription: Descubre cómo un Design System puede mejorar la coherencia y eficiencia de tu sitio web. Obtén más clics y mejora la experiencia de usuario. 💡 ¡Conoce los beneficios ahora!
   metaKeywords: "Estructuras modulares, coherencia web, eficiencia, experiencia de usuario"
-  metaRobots: "index, follow"
+  metaRobots: "noindex, nofollow"
 ---
 
 Helpers que ayudan a agilizar el proceso de maquetación.
@@ -24,26 +23,21 @@ Helpers que ayudan a agilizar el proceso de maquetación.
 
 Colección de helpers no categorizables.
 
-| Helper        | Description          |
+| Helper        | Description ✅       |
 | ------------- | -------------------- |
 | .text-center  | Centrado de texto    |
 | .text-left    | Alineación izquierda |
 | .text-right   | Alineación derecha   |
 | .text-justify | Texto justificado    |
 
-
-
 | Helper        | Description                                  |
 | ------------- | -------------------------------------------- |
-| .bg-cover     | Imagen centrada al medio con cover           |
+| .bg-cover     | Imagen centrada al medio con cover ❌        |
 | strong        | Font family bold                             |
 | .border-1     | Border 1px gris corporativo                  |
 | .border-t     | Border top 1px gris corporativo              |
 | .border-b     | Border bottom 1px gris corporativo           |
 | .flex-vcenter | centrado vertical, incluso si tenemos iconos |
-
-
-
 
 | Helper             | Descripción                                                    |
 | ------------------ | -------------------------------------------------------------- |

@@ -1,5 +1,5 @@
 ---
-layout: _solicitar-cita
+layout: _paginas/_solicitar-cita
 permalink: /solicitar-una-cita/
 
 title: Solicita una cita

@@ -7,7 +7,7 @@ permalink: /solicitar-cita/
 
 
 {% set btn_whtasapp = "on" %} 
-{% include 'components/hero.njk' %}
+{% include '_components/hero.njk' %}
 
 
 <section class="hero  height-full-2 front-section ptr-120 pbr-120 bg-light">
@@ -19,7 +19,7 @@ permalink: /solicitar-cita/
   <div class="col-xs-12 text-center">
  
 
-    <h3 class="fluid-4-b pl-64 pb-64">   O si lo prefieres ven a visitarnos</h3>
+    <h3 class="fluid-4-b pl-64 pb-64">   O si lo prefieres ven a visitarnos  </h3>
 
     <hr class="mb-64">
   </div>
@@ -39,11 +39,7 @@ permalink: /solicitar-cita/
           <li class=""> {{global.codigo}} </li>
           <li class="pb-32"> {{global.ciudad1}} </li>
           <li class="pb-32"> {{global.telf}} </li>
-             <li class="">
-            <a class="flipH" href="mailto:{{global.email1}} "> {{ global.email | reverseWords | safe }}
-            </a>
-          </li>
-          <li> <a class="flipH" href="{{global.link}} "> {{global.link | reverseWords | safe }} </a> </li>
+
         </ul>
       </div>
     </div>

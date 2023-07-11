@@ -1,5 +1,5 @@
 ---
-layout: foundations/_colors.njk
+layout: _paginas/foundations/_colors.njk
 permalink: /colores/
 
 titulo: parrilla 1

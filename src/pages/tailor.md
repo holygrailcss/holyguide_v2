@@ -12,19 +12,19 @@ tags: ["Estructuras modulares", "web design", "SEO"]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
 
-seccion1: Diseñadores
+seccion1: Diseñadores**
 seccion1_links:
   - title: Enlace 1
     url: /enlace1
 
 
-seccion2: Desarrolladores
+seccion2: Desarrolladores**
 seccion2_links:
   - title: Enlace 2
     url: /enlace2
 
 
-seccion3: PO
+seccion3: PO**
 seccion3_links:
   - title: Enlace 3
     url: /enlace3

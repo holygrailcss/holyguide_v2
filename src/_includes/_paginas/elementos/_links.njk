@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+
+{% import "_macros/_token.njk" as tokens %}
+
+<div class="container-fluid">
+  {% include '_components/hero.njk' %}
+</div>
+<div class="main-content innermarkdown ">{{ content | safe }}
+
+
+
+
+
+
+  {% call tokens.element('link-line','350','Loop marquee ') %} {% endcall %}
+
+
+  {% call tokens.element('link-raw','350','Loop marquee ') %} {% endcall %}
+
+
+
+
+
+
+
+  </div>

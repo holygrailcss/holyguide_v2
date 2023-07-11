@@ -6,7 +6,7 @@ title: Parrillas
 subtitle: Parrillas colección
 image: /assets/static/images/7.jpg
 author: autor
-date: 2021-05-01
+date: 2023-07-10
 tags: ["page"]
 imageAlt: Contacta
 descripcion: Contacta con Estructuras modulares.com

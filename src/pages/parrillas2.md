@@ -1,6 +1,6 @@
 ---
-layout: _blogs/_parrillas-collection.njk
-permalink: /parrillas-collection/
+layout: _blogs/_parrillas2.njk
+permalink: /parrillas2/
 
 title: Parrillas
 subtitle: Parrillas colección
@@ -9,5 +9,5 @@ author: autor
 date: 2023-07-10
 tags: ["page"]
 imageAlt: Contacta
-descripcion: Parrillas
+descripcion: parrillas
 ---

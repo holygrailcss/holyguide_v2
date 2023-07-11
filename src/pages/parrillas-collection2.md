@@ -1,8 +1,8 @@
 ---
 layout: _blogs/_parrillas-collection.njk
-permalink: /parrillas-collection/
+permalink: /parrillas-collection2/
 
-title: Parrillas
+title: Parrillas 2
 subtitle: Parrillas colección
 image: /assets/static/images/7.jpg
 author: autor

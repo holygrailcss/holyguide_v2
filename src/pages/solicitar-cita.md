@@ -5,7 +5,7 @@ permalink: /solicitar-una-cita/
 title: Solicita una cita
 subtitle: Totalmente sin compromiso
 author: man 
-date: 2021-05-01
+date: 2023-07-10
 tags: ["page"]
 image: /assets/static/images/7.jpg
 imageAlt: Contacta

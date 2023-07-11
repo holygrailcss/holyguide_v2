@@ -12,7 +12,7 @@ tags: ["Estructuras modulares", "web design", "SEO"]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
 
-seccion1: Diseñadores**
+seccion1: a**
 seccion1_links:
   - title: Enlace 1
     url: /enlace1
@@ -37,5 +37,3 @@ seccion3_links:
 
 ### Nuestro objetivo es convertir una de las empresas minoristas más grandes del mundo en una organización digital de primer orden. Creamos la primera biblioteca de componentes totalmente receptiva para la marca.
 
-
-Desde su implementación, los nuevos desarrollos se crearon un **80 %** más rápido en comparación con la creación de nuevos componentes desde cero.

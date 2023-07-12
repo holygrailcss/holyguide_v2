@@ -9,18 +9,9 @@ layout: base.njk
 <div class="main-content innermarkdown ">{{ content | safe }}
 
 
+<div class="row">
 
 
-
-{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-secondary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %}
-{% endcall %}
-
-
-{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-secondary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %}
-{% endcall %}
-
-
-  <div class="row">
     <div class="col-xs-12">
       <h3 class="h3"> Button</h3>
       El clásico botón en diferentes estilos y tamaños
@@ -30,28 +21,29 @@ layout: base.njk
     </div>
   </div>
 
-  <div class="row bg-light p-16">
-    <div class="col-xs-12 mb-32">
-      {% for Type in global.ButtonType %}
-      <button class=" btn  {{Type.class}}   "> {{Type.class}} </button>
-      {% endfor %}
-    </div>
-    <div class="col-xs-12 mb-32">
-      {% for Type in global.ButtonType %}
-      <button class=" btn  {{Type.class}} hover  "> {{Type.class}} </button>
-      {% endfor %}
-    </div>
-    <div class="col-xs-12 mb-32">
-      {% for Type in global.ButtonType %}
-      <button class=" btn  {{Type.class}} disabled  "> {{Type.class}} </button>
-      {% endfor %}
-    </div>
-  </div>
+      <h3 class="h3"> Botón solido</h3>
+
+{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %}
+{% endcall %}
+      <h3 class="h3"> Botón outline</h3>
+
+{% call helper.insert(elementType='button',['btn btn-secondary', 'btn btn-trans', 'btn btn-secondary-feel' , 'btn btn-pantom']) %}
+{% endcall %}
+         <h3 class="h3"> Botón clean</h3>
+
+{% call helper.insert(elementType='button',['btn btn-clear', 'btn btn-text', 'link-raw' , 'link-line']) %}
+{% endcall %}
+
+
+
   <div class="row">
     <div class="col-xs-12">
       <h3 class="h3"> Button Type</h3>
     </div>
   </div>
+
+
+  
   <div class="row bg-light p-16">
     <div class="col-xs-12 mb-32">
       {% for Size in global.ButtonSize %}

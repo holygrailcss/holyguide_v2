@@ -1,5 +1,5 @@
 ---
-layout: _paginas/base/_tailor.njk
+layout: _paginas/info/_tailor.njk
 permalink: /tailor/
 
 titulo: Tailor

@@ -133,3 +133,15 @@ You can also use words, to fit your writing style more closely[^note].
 [^note]:
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
     This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+
+## Tipos de macros
+
+```
+{% for Type in global.ButtonType %}
+    <button class=" btn  {{Type.class}} hover  "> {{Type.class}} </button>
+{% endfor %}
+
+
+{% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %} {% endcall %}
+```

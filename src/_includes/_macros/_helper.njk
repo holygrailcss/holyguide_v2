@@ -14,23 +14,25 @@
 
 
 {% macro insert(elementType='', elements) %}
-<div class="code-view">
-<div class="check-new">
+
+<div class="mb-32 ">
+
+  
+  <div class="code-view ">
+    <div class="check-new"> </div>
 
 
-    
-</div>
+    {% for element in elements %}
+    <{{ elementType }} class="{{ element }}">{{ element }}</{{ elementType }}>
+    {% endfor %}
+  </div>
+  {% set standardcode %}
+  {% for element in elements %}<{{ elementType }} class="{{ element }}">{{ element }}</{{ elementType }}>
+  {% endfor %} {% endset %}
 
+  <div class="code-zone">
+    <pre><code class=" language-markup">{{standardcode }} </code></pre>
+  </div>
 
-  {% for element in elements %}
-  <{{ elementType }} class="{{ element }}">{{ element }}</{{ elementType }}>
-  {% endfor %}
-</div>
-{% set standardcode %}
-{% for element in elements %}<{{ elementType }} class="{{ element }}">{{ element }}</{{ elementType }}>
-{% endfor %} {% endset %}
-
-<div class="code-zone">
-  <pre><code class=" language-markup">{{standardcode }} </code></pre>
 </div>
 {% endmacro %}

@@ -2,6 +2,7 @@
 {
 	"layout": "",
 	"author": "{{global.empresa}}",
-	"tags": ["servicios"],
-	"categoryName": "{{global.services}} "
+	"tags": ["foundations"],
+	"categoryName": "{{global.services}} ",
+	"page_section": "foundations"
 }

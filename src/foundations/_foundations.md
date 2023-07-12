@@ -15,7 +15,7 @@ imageAlt: Ilustración de un diseño de sistema web
 
 
 ---
-## 00. Boilerplate
+## Boilerplate
 Aprende a maquetar desde cero con el sistema holygrail
 
 Codesandbox
@@ -26,7 +26,7 @@ Boilerplate
 Crea un proyecto completo con parcel y gulp en tu local.
 
 
-## 01. Debug
+## Debug
 Antes de nada, vamos a elegir que herramientas vamos a necesitar para poder debugear mientras maquetamos.
 ```
 @include debug-divs();   // debugaremos con colores en las divs

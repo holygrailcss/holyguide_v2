@@ -11475,7 +11475,6 @@ code[class*=language-], pre[class*=language-] {
   tab-size: 4;
   -webkit-hyphens: none;
   hyphens: none;
-  padding: 0 20px;
 }
 
 pre[class*=language-] {
@@ -12331,6 +12330,7 @@ header.interior svg path {
   font-size: 24px;
   opacity: 0;
   transition: all ease 0.2s;
+  display: none;
 }
 .innermarkdown h2:hover .anchor-link,
 .innermarkdown h3:hover .anchor-link,
@@ -12544,12 +12544,13 @@ blockquote p br {
 .resize-mini pre {
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 16px;
 }
 
 .resize-mini-content {
   border: 1px solid #eaeaea;
   min-height: 100px;
-  padding: 0px;
+  padding: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;

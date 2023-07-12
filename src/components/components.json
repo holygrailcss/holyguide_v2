@@ -2,7 +2,7 @@
 {
 	"layout": "",
 	"author": "Manuel Ruiz",
-	"tags": ["elementos"],
-	"tag": "elementos",
-	"categoryName": "Elementos"
+	"tag": "components",
+	"categoryName": "Elementos",
+	"page_section": "components"
 }

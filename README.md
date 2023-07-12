@@ -145,3 +145,12 @@ You can also use words, to fit your writing style more closely[^note].
 
 {% call helper.insert(elementType='button',['btn btn-primary', 'btn btn-limited' , 'btn btn-feel', 'btn btn-blue']) %} {% endcall %}
 ```
+
+
+## Proceso mediante iconos
+
+✅: Finished and reviewed
+👀: In revision
+⚙️: In progress
+❌: Rejected
+⚰️: Discarded

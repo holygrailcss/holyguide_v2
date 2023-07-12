@@ -7,7 +7,7 @@ descripcion: XX falta texto descriptivo
 date: 2023-06-19
 
 
-tags: ["Estructuras modulares", "web design", "SEO"]
+tags: ["Estructuras modulares", "web design", ""]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
 

@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+{% import "_macros/_token.njk" as tokens %}
+{% import "_macros/_insert.njk" as insert  %}
+
+
+
+
+<div class="container-fluid">
+  {% include '_website/hero.njk' %}
+</div>
+<div class="main-content innermarkdown ">{{ content | safe }}
+
+
+
+
+  {% call tokens.input('input','350','Input básico ') %} {% endcall %} 
+
+
+  </div>
+
+
+

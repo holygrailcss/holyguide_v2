@@ -1,5 +1,53 @@
 $nav-width: 250px;
 
+
+
+
+h1{
+	@include fluid-text($min_width, $break-lg, 24px, 60px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+h2{
+	@include fluid-text($min_width, $break-lg, 20px, 50px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+h3{
+	@include fluid-text($min_width, $break-lg, 18px, 40px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+h4{
+	@include fluid-text($min_width, $break-lg, 16px, 30px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+h5{
+	@include fluid-text($min_width, $break-lg, 14px, 20px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+
+h6{
+	@include fluid-text($min_width, $break-lg, 14px, 16px, 1);
+    width: 100%;
+    line-height: 1;
+    @include font-bold();
+}
+
+
+
 .main-content {
 	margin-top: 71px;
 	margin-left: auto;
@@ -56,6 +104,8 @@ $nav-width: 250px;
   
   .guide-header{
 	padding: 0 100px;
+	max-width: 800px;
+	width: 100%;
   
   }
   
@@ -189,12 +239,7 @@ $nav-width: 250px;
 	}
   }
   
-  .list-grid{
-  
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	gap: 16px;
-  }
+
   
   .code-view{
 	position: relative;
@@ -311,7 +356,7 @@ overflow: hidden;
   .main-widthsidebar {
 	margin-top: 71px;
 	margin-left: $nav-width;
-	width: calc(100vw - (#{$nav-width} + 28px));
+	width: calc(100vw - (#{$nav-width} + 16px));
 	overflow: hidden;
 	@media (max-width: 767px) {
 	  width: 100%;

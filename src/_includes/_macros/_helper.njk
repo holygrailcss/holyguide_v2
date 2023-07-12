@@ -3,11 +3,11 @@
 <p class="p-xs">{{ explicacion }}</p>
 <div class="resize-mini">
   <div class="resize-mini-content-narrow {{dark  }} ">
-    {% include 'tokens/' + tokenType + '.njk' %}
+    {% include 'components/' + tokenType + '.njk' %}
   </div>
 </div>
 {% set standardcode %}
-{% include 'tokens/' + tokenType + '.njk' %}
+{% include 'components/' + tokenType + '.njk' %}
 {% endset %}
 <pre><code class=" ">{{standardcode }} </code></pre>
 {% endmacro %}

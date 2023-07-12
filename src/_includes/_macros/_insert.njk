@@ -11,7 +11,7 @@
                 </a>
             </div>
             <div class="resize-snip">
-                <a class="" target="_blank" href="/tokens/{{ component }}">
+                <a class="" target="_blank" href="/_components/{{ component }}">
                     VER
                 </a>
             </div>
@@ -21,7 +21,9 @@
             </div>
         </div>
         <div class="viewcode">
-            <pre><code class="language-markup">{% set standardcode %} {% include '../tokens/'+component +'.njk' %}   {# esto si funciona #}{% endset %}{{standardcode}}</code></pre>
+            <pre><code class="language-markup">{% set standardcode %} 
+                
+                {% include '../_components/'+component +'.njk' %}   {# esto si funciona #}{% endset %}{{standardcode}}</code></pre>
         </div>
         <div class="main-content">
             <div class="col-xs-12">{{descripcion}}</div>
@@ -36,7 +38,7 @@
             </div>
             <div class="resize-left"></div>
             <div class="resize-right"></div>
-            <iframe id="cover1" class="resizable" src="/tokens/{{ component }}" width="100%" height="{{ size }}"
+            <iframe id="cover1" class="resizable" src="/_components/{{ component }}" width="100%" height="{{ size }}"
                 frameborder="0" seamless></iframe>
         </div>
     </div>

@@ -1,23 +1,19 @@
 ---
 layout: _paginas/foundations/_foundations.njk
-permalink: /empezando/
+permalink: /foundations/
 
 
-titulo: Empezando
-descripcion: XX falta texto descriptivo
+titulo: Foundations
+descripcion: Nuestros principios elementales
 
-
+page_section: foundations
 date: 2023-06-19
 fecha: 19 de junio de 2023
 tags: ["Estructuras modulares", "web design", ""]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
 
-eleventyComputed:
-  metaTitle: Beneficios de un Design System | Mejora la coherencia y eficiencia de tu web
-  metaDescription: Descubre cómo un Design System puede mejorar la coherencia y eficiencia de tu sitio web. Obtén más clics y mejora la experiencia de usuario. 💡 ¡Conoce los beneficios ahora!
-  metaKeywords: "Estructuras modulares, coherencia web, eficiencia, experiencia de usuario"
-  metaRobots: "noindex, nofollow"
+
 ---
 ## 00. Boilerplate
 Aprende a maquetar desde cero con el sistema holygrail

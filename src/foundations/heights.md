@@ -7,7 +7,7 @@ descripcion: XX falta texto descriptivo
 
 date: 2023-06-19
 fecha: 19 de junio de 2023
-tags: ["Estructuras modulares", "web design", "SEO"]
+tags: ["Estructuras modulares", "web design", ""]
 ---
 
 Alturas fijas o variables que permiten dar fijar estándares en los diferentes elementos que lo requieran.

@@ -8,7 +8,7 @@ descripcion: XX falta texto descriptivo
 
 date: Last Modified
 
-tags: ["Estructuras modulares", "web design", "SEO"]
+tags: ["Estructuras modulares", "web design", ""]
 
 
 ---

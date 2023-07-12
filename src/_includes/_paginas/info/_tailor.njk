@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <div class="container-fluid">
-    {% include '_components/hero.njk' %}
+    {% include '_website/hero.njk' %}
 </div>
 {% set page_title = "tailor" %}
 <div class="main-content">
@@ -75,7 +75,7 @@ layout: base.njk
 
 
 
-            {% for token in collections.elementos | reverse %}
+            {% for token in collections.componentes | reverse %}
 
             {% include 'token-loop.njk' %}
             {% endfor %}

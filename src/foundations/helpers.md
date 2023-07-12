@@ -7,7 +7,7 @@ descripcion: XX falta texto descriptivo
 
 date: Last Modified
 fecha: 19 de junio de 2023
-tags: ["Estructuras modulares", "web design", "SEO"]
+tags: ["Estructuras modulares", "web design", ""]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
 eleventyComputed:

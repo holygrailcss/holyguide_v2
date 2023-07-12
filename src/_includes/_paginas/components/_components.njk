@@ -13,6 +13,16 @@ layout: base.njk
         {{page_section}}
 
         {{ content | safe }}</div>
+
+        <div class="list-grid"> 
+            {% for component in collections.components | reverse %}
+              {% include 'token-loop.njk' %}
+            {% endfor %}
+
+
+        </div>
+
+        
     </div>
   </div>
 </section>

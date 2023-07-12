@@ -1,4 +1,3 @@
-AOS.init();
 
 console.log("Hola, mundo!");
 
@@ -12,6 +11,47 @@ document.body.onscroll = function () {
     document.body.classList.remove("scrolled");
   }
 };
+
+
+
+$(document).ready(function () {
+
+  $(".resize-code").on("click", function () {
+		$(this.parentNode.parentNode.parentNode.parentNode).toggleClass("opencode-button");
+		e.preventDefault();
+	});
+	$(".resize-rules").on("click", function () {
+		console.log("esto no funciona");
+		$(this.parentNode.parentNode).toggleClass("openRules");
+	});
+	$(".btn-anim").click(function () {
+		$(this).toggleClass("is-loading");
+	});
+
+  initvideo();
+
+
+
+  function rtlChange(){
+    console.log("rtlChange activo");
+  
+    let element = document.querySelector("body");
+    let validation = element.classList.contains("is-rtl");
+  
+    if(validation == true ){
+        element.classList.remove("is-rtl");
+        document.querySelector("html").setAttribute("dir", "ltr");
+    } else{
+        element.classList.add("is-rtl");
+        document.querySelector("html").setAttribute("dir", "rtl");
+    }
+  }
+
+
+});
+
+
+
 
 var swiper = new Swiper(".swiper-container", {
   spaceBetween: 15,
@@ -62,24 +102,12 @@ $("#menu-toggle").click(function () {
 });
 
 
-  // Espera a que se cargue el documento antes de inicializar Highlight.js
-
-
-
-$(document).ready(function () {
-
-
-  initvideo();
-
-
-
-});
 
 
 $(".check-new").on("click", function (e) {
   console.log("Esto funciona");
 
-  // Toggle class ".bg-dark" en el elemento padre
+
   $(this.parentNode).toggleClass("bg-dark");
   $(this.parentNode).toggleClass("has-light");
 
@@ -413,21 +441,6 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
 initPhotoSwipeFromDOM(".my-gallery");
 
 
-$(document).ready(function () {
-
-  $(".resize-code").on("click", function () {
-		$(this.parentNode.parentNode.parentNode.parentNode).toggleClass("opencode-button");
-		e.preventDefault();
-	});
-	$(".resize-rules").on("click", function () {
-		console.log("esto no funciona");
-		$(this.parentNode.parentNode).toggleClass("openRules");
-	});
-	$(".btn-anim").click(function () {
-		$(this).toggleClass("is-loading");
-	});
-
-});
 
 
 $("a.rtl").on("click", function() {
@@ -465,3 +478,5 @@ $(".over3").on("click", function (e) {
 $(".to-top").on("click", function() {
   $(window).scrollTop(0);
 });
+
+

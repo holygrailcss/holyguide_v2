@@ -11,7 +11,6 @@
   <meta name="description"
     content="{{ metaDescription or eleventyComputed.metaDescription or metadata.description }}" />
   <meta name="keywords" content="{{ metaKeywords or eleventyComputed.metaKeywords or metaKeywords.description }}" />
-  <link rel="icon" type="image/webp" href="{{ global.url }}/assets/static/images/1.jpg" />
   <style>
     :root {
   --c-primary: {{global.c_primary}};
@@ -45,19 +44,40 @@
     {{ content | safe }}
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-  <script type="module" src="/assets/js/index.js"></script>
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-  <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/atom-one-dark.css" />
 
-  <script src="https://holyguide.es/js/prism.js"></script>
+<button class="resize-rules guide-inspect btn btn-secondary  ">  
+	<div class="">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+			<title>measure-02</title>
+			<g stroke-linecap="square" stroke-linejoin="miter" stroke-width="1.5" transform="translate(0.5 0.5)" fill="#eaeaea"
+				stroke="#eaeaea">
+				<line fill="none" stroke-miterlimit="10" x1="8" y1="6" x2="11" y2="6"></line>
+				<line fill="none" stroke-miterlimit="10" x1="8" y1="10" x2="10" y2="10"></line>
+				<line fill="none" stroke-miterlimit="10" x1="8" y1="14" x2="11" y2="14"></line>
+				<line fill="none" stroke-miterlimit="10" x1="8" y1="18" x2="10" y2="18"></line>
+				<rect x="8" y="1" fill="none" stroke="#eaeaea" stroke-miterlimit="10" width="8" height="22"></rect>
+			</g>
+		</svg>
+	</div>
+</button>
+
+<button class="guide-inspect btn btn-secondary rtl-inspect" onclick="rtlChange()">RTL</button>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script type="module" src="/assets/js/index.js"></script>
+<script type="module" src="/assets/js/prism.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+
+<link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/atom-one-dark.css" />
+
+
 
 
 

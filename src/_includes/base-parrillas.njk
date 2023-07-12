@@ -11,7 +11,6 @@
   <meta name="description"
     content="{{ metaDescription or eleventyComputed.metaDescription or metadata.description }}" />
   <meta name="keywords" content="{{ metaKeywords or eleventyComputed.metaKeywords or metaKeywords.description }}" />
-  <link rel="icon" type="image/webp" href="{{ global.url }}/assets/static/images/1.jpg" />
   <style>
     :root {
   --c-primary: {{global.c_primary}};
@@ -76,7 +75,8 @@
   <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
   <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/atom-one-dark.css" />
 
-  <script src="https://holyguide.es/js/prism.js"></script>
+  <script type="module" src="/assets/js/index.js"></script>
+    <script type="module" src="/assets/js/prism.js"></script>
 
   <script>
 

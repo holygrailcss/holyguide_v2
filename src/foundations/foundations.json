@@ -1,6 +1,6 @@
 
 {
-	"layout": "_blogs/_serviciosinner.njk",
+	"layout": "",
 	"author": "{{global.empresa}}",
 	"tags": ["servicios"],
 	"categoryName": "{{global.services}} "

@@ -75,9 +75,9 @@ layout: base.njk
 
 
 
-            {% for elemento in collections.elementos | reverse %}
+            {% for token in collections.elementos | reverse %}
 
-            {% include 'elemento-loop.njk' %}
+            {% include 'token-loop.njk' %}
             {% endfor %}
 
         </ul>

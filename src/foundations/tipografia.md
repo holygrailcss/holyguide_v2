@@ -14,9 +14,3 @@ imageAlt: Ilustración de un diseño de sistema web
 
 ---
 
-#### El color es fundamental para la experiencia del usuario y debe transmitir información de manera accesible para todos nuestros usuarios.
-
-### Su uso
-Para poder usar los colores usaremos las siguientes variables importando los abstract en el documento sass.
-
-

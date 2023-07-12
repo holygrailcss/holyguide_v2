@@ -81,11 +81,7 @@ Creamos, implementamos y diseñamos Estructuras modulares.
         <div class="row">
           <div class="col-xs-12">
             <ul role="list" class="list-clear flow row">
-              {% for servicios in collections.servicios %}
-                {% if  loop.index < 4 %}  
-                        {% include 'servicios-loop.njk' %}
-                {% endif %}
-              {% endfor %}
+
             </ul>
           </div>
         </div>
@@ -99,8 +95,8 @@ Creamos, implementamos y diseñamos Estructuras modulares.
         <h3 class="fluid-4-b mb-24">Estructuras modulares <br> te informa</h3>
         <div class="blog-intro">
           <ul role="list" class="list-clear blog-intro-inner w-100">
-            {% for blog in collections.blog | reverse %}
-              {% include 'blog-loop.njk' %}
+            {% for token in collections.token | reverse %}
+              {% include 'token-loop.njk' %}
             {% endfor %}
           </ul>
         </div>

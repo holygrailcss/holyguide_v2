@@ -3,7 +3,7 @@ layout: _paginas/info/_tailor.njk
 permalink: /tailor/
 
 titulo: Tailor
-descripcion: XX falta texto descriptivo
+descripcion: El nuevo Sistema de Diseño de Massimo Dutti nos ayuda a construir una experiencia de usuario sólida al mismo tiempo que reduce los errores y aumenta la velocidad de producción en todas las áreas.
 
 
 date: 2023-06-19
@@ -11,23 +11,18 @@ fecha: 19 de junio de 2023
 tags: ["Estructuras modulares", "web design", "SEO"]
 image: /assets/static/images/8.jpg
 imageAlt: Ilustración de un diseño de sistema web
+buttonTitle: Empezar
 
-seccion1: a**
-seccion1_links:
-  - title: Enlace 1
-    url: /enlace1
-
-
-seccion2: Desarrolladores**
-seccion2_links:
-  - title: Enlace 2
-    url: /enlace2
+seccion1: Diseñadores
+url1: /startdesigner
 
 
-seccion3: PO**
-seccion3_links:
-  - title: Enlace 3
-    url: /enlace3
+seccion2: Desarrolladores
+url2: /startdev
+
+
+seccion3: Owners
+url3: /enlace3
 
 
 ---

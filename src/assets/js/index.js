@@ -476,3 +476,15 @@ $(".to-top").on("click", function() {
 });
 
 
+if (document.querySelector(".btncode")) {
+  var clipboard = new ClipboardJS(".btncode");
+  clipboard.on("success", function (e) {
+    console.info("Action:", e.action);
+    console.info("Text:", e.text);
+    console.info("Trigger:", e.trigger);
+    e.clearSelection();
+  });
+}
+
+
+

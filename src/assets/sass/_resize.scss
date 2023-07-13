@@ -166,8 +166,10 @@ padding: 12px;
   
   .resize-mini {
 	overflow: hidden;
+
   
 	pre {
+		position: relative;
 	  margin-top: 0px;
 	  margin-bottom: 0px;
 	  padding: 16px;

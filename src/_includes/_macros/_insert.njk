@@ -495,7 +495,7 @@
 	<a class="mb-16  {{ links  }} " href=""> {{ links }} </a> {% endset%}
 	<pre>
     <button class="btn btncode" data-clipboard-target="#{{buttonName}}">
-    <img src="./images/clippy.svg" width="13" alt="Copy to clipboard"></button >
+    <img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"></button >
 	<code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}  
         </code>
     </pre>
@@ -538,7 +538,7 @@
     </div>
   </div>
   {% set standardcode %}<button class='{{buttonName }} '>{{buttonName }} </button>{% endset %}
-  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="./images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
+  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
 </div>
 {% endmacro %}
  
@@ -583,7 +583,7 @@
     </span>
   </button>
   {% endset %}
-  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="./images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
+  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
 </div> {% endmacro %}
 
 
@@ -636,7 +636,7 @@
       </svg-icon>
     </span>
   </button>{% endset %}
-  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="./images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
+  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
 </div> {% endmacro %}
  
 
@@ -885,7 +885,7 @@
   
   {% set standardcode %}<button class='btn btn--{{buttonName }} btn--full'>btn--{{buttonName }} </button>{% endset %}
 
-  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="./images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
+  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
 
 
 </div>
@@ -966,7 +966,7 @@
   </div>
   {% set standardcode %}{% for buttonName in buttonNames %} <button class="btn btn-{{buttonName}}  btn--small">{{buttonName}}</button>
   {% endfor %}{% endset %}
-  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="./images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
+  <pre><button class="btn btncode" data-clipboard-target="#{{buttonName}}"><img src="/assets/static/images/clippy.svg" width="13" alt="Copy to clipboard"> </button ><code id="{{buttonName}}" class="language-markup c-{{ buttonName }}">{{standardcode}}   </code></pre>
 </div>
 {% endmacro %}
  

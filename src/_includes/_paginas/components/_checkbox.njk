@@ -13,11 +13,11 @@ layout: base.njk
 </div>
 <div class="main-content innermarkdown ">{{ content | safe }}
 
-
-
-
-  {% call tokens.input('input','350','Input básico ') %} {% endcall %} 
-
+  {% call tokens.checkbox('checkbox-item-box','Checkbox básico') %} {% endcall %} 
+  {% call tokens.checkboxText('checkbox-item-text','Checkbox con texto') %} {% endcall %} 
+  {% call tokens.checkbox2('checkbox-item-2','Checkbox switch') %} {% endcall %} 
+  {% call tokens.checkboxRadio('checkbox-radio','Radio button') %} {% endcall %} 
+  {% call tokens.checkboxCard('checkbox-card','Radio text button') %} {% endcall %} 
 
   </div>
 

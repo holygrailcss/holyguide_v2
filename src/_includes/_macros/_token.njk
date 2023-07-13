@@ -1,42 +1,116 @@
-{% macro token(tokenType='', explicacion='',dark='') %}
-<h3>{{ tokenType }}</h3>
-<p class="p-xs">{{ explicacion }}</p>
-<div class="resize-mini">
-  <div class="resize-mini-content-narrow {{dark  }} ">
-    {% include '_components/' + tokenType + '.njk' %}
+{% macro token(tokenType = '', explicacion = '', dark = '') %}
+  <h3>{{ tokenType }}</h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="resize-mini">
+    <div class="resize-mini-content-narrow {{dark  }} ">
+      {% include '_components/' + tokenType + '.njk' %}
+    </div>
   </div>
-</div>
-{% set standardcode %}
-{% include '_components/' + tokenType + '.njk' %}
-{% endset %}
-<pre><code class=" ">{{standardcode }} </code></pre>
-{% endmacro %}
-{% macro element(elementType='', explicacion='',dark='') %}
-<h3>{{ elementType }} </h3>
-<p class="p-xs">{{ explicacion }}</p>
-<div class="resize-mini">
-  <div class="resize-mini-content-narrow {{dark  }} ">
-    <a class="mb-16  {{ elementType }} " href=""> {{ elementType }}</a>
-  </div>
-</div>
-{% set standardcode %}
-<a class="mb-16  {{ elementType }} " href=""> {{ elementType }}</a>
-{% endset %}
-<pre><code class="language-markup">{{standardcode}} </code></pre>
+  {% set standardcode %}
+  {% include '_components/' + tokenType + '.njk' %}
+  {% endset %}
+  <pre><code class=" ">{{standardcode }} </code></pre>
 {% endmacro %}
 
-
-
-
-{% macro input(elementType='', explicacion='') %}
-<h3>{{ elementType }} </h3>
-<p class="p-xs">{{ explicacion }}</p>
-<div class="mb-32 ">
+{# TODO JUNTAR MACROS LINKS #}
+{% macro link(elementType = '', explicacion = '', dark = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
   <div class="code-view ">
-    <div class="check-new"> </div>
+    <div class="check-new"></div>
+    <a class="{{ elementType }}" href="">
+      {{ elementType }}
+    </a>
+  </div>
+  {% set standardcode %}
+  <a class="{{ elementType }}" href="">
+    {{ elementType }}
+  </a>
+  {% endset %}
+  <pre><code class="language-markup">{{standardcode}}</code></pre>
+{% endmacro %}
+
+{% macro linkPost(elementType = '', explicacion = '', dark = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="code-view ">
+    <div class="check-new"></div>
+    <a class="link-line {{ elementType }}" href="">
+      {{ elementType }}
+      <svg-icon src="alert">
+        <div>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5C11.5899 14.5 14.5 11.5899 14.5 8C14.5 4.41015 11.5899 1.5 8 1.5ZM0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8ZM8 4.5C8.27614 4.5 8.5 4.72386 8.5 5V5.5C8.5 5.77614 8.27614 6 8 6C7.72386 6 7.5 5.77614 7.5 5.5V5C7.5 4.72386 7.72386 4.5 8 4.5ZM8 7.5C8.27614 7.5 8.5 7.72386 8.5 8V11C8.5 11.2761 8.27614 11.5 8 11.5C7.72386 11.5 7.5 11.2761 7.5 11V8C7.5 7.72386 7.72386 7.5 8 7.5Z" fill="#292929"></path>
+          </svg>
+        </div>
+      </svg-icon>
+    </a>
+  </div>
+  {% set standardcode %}
+  <a class="link-line {{ elementType }}" href="">
+    {{ elementType }}
+    <svg-icon src="alert"></svg-icon>
+  </a>
+  {% endset %}
+  <pre><code class="language-markup">{{standardcode}}</code></pre>
+{% endmacro %}
+
+{% macro linkPre(elementType = '', explicacion = '', dark = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="code-view ">
+    <div class="check-new"></div>
+    <a class="link-line {{ elementType }}" href="">
+      {{ elementType }}
+      <svg-icon src="alert">
+        <div>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5C11.5899 14.5 14.5 11.5899 14.5 8C14.5 4.41015 11.5899 1.5 8 1.5ZM0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8ZM8 4.5C8.27614 4.5 8.5 4.72386 8.5 5V5.5C8.5 5.77614 8.27614 6 8 6C7.72386 6 7.5 5.77614 7.5 5.5V5C7.5 4.72386 7.72386 4.5 8 4.5ZM8 7.5C8.27614 7.5 8.5 7.72386 8.5 8V11C8.5 11.2761 8.27614 11.5 8 11.5C7.72386 11.5 7.5 11.2761 7.5 11V8C7.5 7.72386 7.72386 7.5 8 7.5Z" fill="#292929"></path>
+          </svg>
+        </div>
+      </svg-icon>
+    </a>
+  </div>
+  {% set standardcode %}
+  <a class="link-line {{ elementType }}" href="">
+    {{ elementType }}
+    <svg-icon src="alert"></svg-icon>
+  </a>
+  {% endset %}
+  <pre><code class="language-markup">{{standardcode}}</code></pre>
+{% endmacro %}
+{# TODO END #}
+
+{# TODO JUNTAR MACROS CHECK #}
+{% macro checkbox(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="checkbox-item-box">
+        <div class="checkbox-item">
+          <input id="checkbox_1" type="checkbox"/>
+          <label for="checkbox_1">
+            <i class="icon">
+              <svg width="16" height="16">
+                <g stroke-width="1">
+                  <polyline fill="none" stroke="#000000" points="1,9 5,13 15,3 "></polyline>
+                </g>
+              </svg>
+            </i>
+          </label>
+        </div>
+      </div>
+    </div>
+    {% set standardcode %}
     <div class="checkbox-item-box">
       <div class="checkbox-item">
-        <input id="checkbox_1" type="checkbox" />
+        <input id="checkbox_1" type="checkbox"/>
         <label for="checkbox_1">
           <i class="icon">
             <svg width="16" height="16">
@@ -48,12 +122,40 @@
         </label>
       </div>
     </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
   </div>
-  {% set standardcode %}
-  <div class="checkbox-item-box">
+{% endmacro %}
+
+{% macro checkboxText(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="checkbox-item">
+        <input id="checkbox_2" type="checkbox">
+        <label for="checkbox_2">
+          <i class="icon">
+            <svg width="16" height="16">
+              <g stroke-width="1">
+                <polyline fill="none" stroke="#000000" points="1,9 5,13 15,3 "></polyline>
+              </g>
+            </svg>
+          </i>
+          <span class="p-xs">
+            checkbox-item <a href="#">legal text</a>
+          </span>
+        </label>
+      </div>
+    </div>
+    {% set standardcode %}
     <div class="checkbox-item">
-      <input id="checkbox_1" type="checkbox" />
-      <label for="checkbox_1">
+      <input id="checkbox_2" type="checkbox">
+      <label for="checkbox_2">
         <i class="icon">
           <svg width="16" height="16">
             <g stroke-width="1">
@@ -61,15 +163,176 @@
             </g>
           </svg>
         </i>
+        <span class="p-xs">
+            checkbox-item <a href="#">legal text</a>
+        </span>
       </label>
     </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
   </div>
-  {% endset %}
-  <div class="code-zone">
-    <pre><code class=" language-markup">{{standardcode }} </code></pre>
-  </div>
-</div>
 {% endmacro %}
 
+{% macro checkbox2(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="checkbox-item-2">
+        <div class="">
+          <input id="checkbox18" name="checkbox18" type="checkbox" class="ng-valid"/>
+          <label for="checkbox18">
+            <div class="checkbox-circle"></div>
+            <span class="theta">checkbox-item-2</span>
+          </label>
+        </div>
+      </div>
+    </div>
+    {% set standardcode %}
+    <div class="checkbox-item-2">
+      <div class="">
+        <input id="checkbox18" name="checkbox18" type="checkbox" class="ng-valid"/>
+        <label for="checkbox18">
+          <div class="checkbox-circle"></div>
+          <span class="theta">checkbox-item-2</span>
+        </label>
+      </div>
+    </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
+  </div>
+{% endmacro %}
 
+{% macro checkboxRadio(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="checkbox-radio">
+        <input id="12" name="gender" type="radio" value="F"/>
+        <label for="12">
+          <i class="ico-radio"></i>
+          <span class="p-xs">checkbox-radio</span>
+        </label>
+      </div>
+    </div>
+    {% set standardcode %}
+    <div class="checkbox-radio">
+      <input id="12" name="gender" type="radio" value="F"/>
+      <label for="12">
+        <i class="ico-radio"></i>
+        <span class="p-xs">checkbox-radio</span>
+      </label>
+    </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
+  </div>
+{% endmacro %}
 
+{% macro checkboxCard(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="row">
+        <div class="col-xs-12 mb-8">
+          <div class="checkbox-card">
+            <input id="17-1" name="gender" type="radio">
+            <label for="17-1" class=" checkbox-card-label">
+              <div class=" p-xs-b">Recoger el 24/09 en la misma tienda</div>
+            </label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="checkbox-card">
+            <input id="17-3" name="gender" type="radio" value="a">
+            <label for="17-3" class=" checkbox-card-label ">
+              <div class=" p-xs-b">Guardar los artículos en “Comprar más tarde” </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% set standardcode %}
+    <div class="row">
+      <div class="col-xs-12 mb-8">
+        <div class="checkbox-card">
+          <input id="17-1" name="gender" type="radio">
+          <label for="17-1" class=" checkbox-card-label">
+            <div class=" p-xs-b">Recoger el 24/09 en la misma tienda</div>
+          </label>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="checkbox-card">
+          <input id="17-3" name="gender" type="radio" value="a">
+          <label for="17-3" class=" checkbox-card-label ">
+            <div class=" p-xs-b">Guardar los artículos en “Comprar más tarde” </div>
+          </label>
+        </div>
+      </div>
+    </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
+  </div>
+{% endmacro %}
+{# TODO END #}
+
+{% macro input(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      <div class="checkbox-item">
+        <input id="checkbox_2" type="checkbox">
+        <label for="checkbox_2">
+          <i class="icon">
+            <svg width="16" height="16">
+              <g stroke-width="1">
+                <polyline fill="none" stroke="#000000" points="1,9 5,13 15,3 "></polyline>
+              </g>
+            </svg>
+          </i>
+          <span class="p-xs">
+            checkbox-item <a href="#">legal text</a>
+          </span>
+        </label>
+      </div>
+    </div>
+    {% set standardcode %}
+    <div class="checkbox-item-box">
+      <div class="checkbox-item">
+        <input id="checkbox_1" type="checkbox"/>
+        <label for="checkbox_1">
+          <i class="icon">
+            <svg width="16" height="16">
+              <g stroke-width="1">
+                <polyline fill="none" stroke="#000000" points="1,9 5,13 15,3 "></polyline>
+              </g>
+            </svg>
+          </i>
+        </label>
+      </div>
+    </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
+  </div>
+{% endmacro %}

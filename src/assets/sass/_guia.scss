@@ -277,7 +277,7 @@ overflow: hidden;
 	  width: 12px;
 	  height: 12px;
 	  background-color: #ffffff;
-	  
+	  transition: 0.2s;
 	  border-radius:50px;
   
 	}
@@ -286,14 +286,13 @@ overflow: hidden;
 		content: '';
 		top: 2px;
 		right: -14px;
-		transition: .2s ease all;
 		position: absolute;
 		width: 12px;
 		height: 12px;
-		background-color: #28292d;
+		background-color: transparent;
 		z-index: 2;
 		border-radius:50px;
-	
+		transition: 0.2s;
 	  }
   
 	.has-light &{
@@ -314,7 +313,6 @@ overflow: hidden;
 		right: 10px;
 		position: absolute;
 		background-color: #ffffff;
-		transition-delay: .2s;
 		z-index: 2;
 	
 	  }

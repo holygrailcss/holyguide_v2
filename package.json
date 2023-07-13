@@ -7,7 +7,7 @@
     "watch:eleventy": "eleventy --serve --incremental",
     "watch:sass": "sass  --no-source-map --watch src/assets/sass:src/assets/css",
     "build:eleventy": "eleventy",
-    "build:sass": "sass  --no-source-map --style=compressed src//assets/sass:src//assets/css",
+    "build:sass": "sass  --no-source-map --style=expanded src//assets/sass:src//assets/css",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* npx eleventy"

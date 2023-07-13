@@ -154,3 +154,7 @@ You can also use words, to fit your writing style more closely[^note].
 ⚙️: In progress
 ❌: Rejected
 ⚰️: Discarded
+
+
+⚪️ 1- To do
+✍️ 4- Work in progress

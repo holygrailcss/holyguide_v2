@@ -1,6 +1,7 @@
 ---
 layout: _paginas/info/_start-dev.njk
 permalink: /start-dev/
+page_section: develop
 
 titulo: Start Dev
 descripcion: XX falta texto descriptivo

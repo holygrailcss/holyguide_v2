@@ -1,5 +1,5 @@
 ---
-layout: _paginas/foundations/_foundations.njk
+layout: _paginas/foundations/_icons.njk
 permalink: /icons/
 
 titulo: icons

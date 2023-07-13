@@ -371,3 +371,104 @@ overflow: hidden;
 	  height: 400px;
 	}
   }
+
+
+  // grid icons
+#loopicons,
+#loopicons2,
+#loopicons3,
+#loopicons4,
+#loopicons5
+ {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  article {
+    width: calc(50% - 8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 4px;
+
+    span {
+      text-align: center;
+    }
+
+    .myspan {
+      font-size: 12px;
+      padding-top: 16px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 768px) {
+    article {
+      width: calc(10% - 8px);
+    }
+  }
+}
+
+.has-error {
+  svg-icon {
+    path {
+      fill: $c-error;
+    }
+  }
+}
+
+.has-success {
+  svg-icon {
+    path {
+      fill: $c-success;
+    }
+  }
+}
+
+.has-light {
+  article {
+    background: transparent;
+  }
+
+  svg-icon {
+    path {
+      fill: $c-white;
+    }
+
+    circle {
+      stroke: $c-white;
+    }
+  }
+
+  //todo holygrail
+  input:focus {
+    outline: none;
+    border: 1px solid $c-white;
+  }
+
+  .input,
+  .textarea,
+  .select select {
+    color: $c-white;
+  }
+}
+
+
+.tabguide-content {
+    padding: 20px;
+    overflow: hidden;
+    min-height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+	svg-icon{
+		margin-bottom: 8px;
+	}
+}

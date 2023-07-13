@@ -1,5 +1,5 @@
 ---
-layout: _paginas/foundations/_foundations.njk
+layout: _paginas/templates/_templates.njk
 permalink: /templates/
 page_section: templates
 

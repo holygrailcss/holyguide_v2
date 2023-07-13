@@ -1,6 +1,6 @@
 ---
 layout: _paginas/foundations/_foundations.njk
-permalink: /start-design/
+permalink: /design/
 page_section: design
 
 

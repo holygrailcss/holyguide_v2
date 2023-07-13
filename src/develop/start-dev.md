@@ -1,6 +1,6 @@
 ---
 layout: _paginas/info/_start-dev.njk
-permalink: /startdev/
+permalink: /start-dev/
 
 titulo: Start Dev
 descripcion: XX falta texto descriptivo

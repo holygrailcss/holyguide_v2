@@ -2,9 +2,6 @@
 layout: _paginas/_index.njk
 permalink: /
 title: Titutar de la página
-eleventyComputed:
-  title: Holygrid
-  metaDescription: "Descripción del sitio"
-  metaKeywords: "palabra1,palabra2,palabra3"
-  metaRobots: "noindex, nofollow"
+
+page_section: index
 ---

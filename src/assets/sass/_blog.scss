@@ -11,26 +11,14 @@ table{
   }
 }
 
-  .toc {
-    background-color: #f7f7f7;
-    color: $c-primary;
-    font-size: 14px;
-    margin: 0 auto 20px;
-    padding: 16px;
-    padding: 20px;
-    ol li a {
-      display: block;
-      color: $c-primary;
-      padding: 0 8px 8px 0;
-    }
-    ol {
-      list-style: none;
-      ol {
-        margin-left: 20px
-      }
-    }
+ul{
+  padding-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  li{
+    margin-bottom: 12px;
   }
-
+}
 
   hr {
     margin-top: 20px;
@@ -40,14 +28,15 @@ table{
       margin-bottom: 80px;
     }
   }
-  p {
-    font-size: 18px;
+  p,li {
+    font-size: 14px;
     line-height: 1.4;
+    margin-bottom: 20px;
   }
-  h2 {
+  h1 {
     margin-top: 24px;
     padding-bottom: 20px;
-    @include fluid-text($min_width, $break-lg, 24px, 60px, 1);
+    @include fluid-text($min_width, $break-lg, 34px, 60px, 1);
     width: 100%;
     line-height: 1;
     @include font-bold();
@@ -55,7 +44,7 @@ table{
   h2 {
     margin-top: 24px;
     padding-bottom: 20px;
-    @include fluid-text($min_width, $break-lg, 24px, 60px, 1);
+    @include fluid-text($min_width, $break-lg, 34px, 50px, 1);
     width: 100%;
     line-height: 1;
     @include font-bold();
@@ -63,23 +52,33 @@ table{
   h3 {
     margin-top: 24px;
     padding-bottom: 20px;
-    @include fluid-text($min_width, $break-lg, 20px, 35px, 1);
+    @include fluid-text($min_width, $break-lg, 24px, 40px, 1);
     line-height: 1;
     @include font-bold();
   }
   h4 {
     margin-top: 24px;
-    @include font-regular();
+    @include font-bold();
     padding-bottom: 8px;
-    font-size: 32px;
+    @include fluid-text($min_width, $break-lg, 20px, 30px, 1);
   }
   h5 {
     margin-top: 0px;
     @include font-bold();
     padding-bottom: 8px;
-    font-size: 18px;
+    @include fluid-text($min_width, $break-lg, 18px, 20px, 1);
     color: $c-secondary;
   }
+
+  h6 {
+    margin-top: 0px;
+    @include font-bold();
+    padding-bottom: 8px;
+    @include fluid-text($min_width, $break-lg, 14px, 18px, 1);
+    color: $c-secondary;
+  }
+
+
   .eleventy-plugin-youtube-embed {
     width: 120% !important;
     transform: translateX(-8%);
@@ -97,35 +96,13 @@ table{
     }
   }
 
-  h2,
-  h3,
-  h4 {
-    .anchor-link {
-      position: absolute;
-      font-size: 24px;
-      opacity: 0;
-      transition: all ease .2s ;
-      display: none;
-    }
-    &:hover {
-      .anchor-link {
-        opacity: .5;
-      }
-    }
+
+
+blockquote  {
+background-color: #f1f1f1;
+padding: 16px;
+border-left: 5px solid purple;
+
+
   }
 }
-
-
-blockquote p {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;;
-gap:16px;
-  img{
-    width: 100%;
-  }
-  br{
-    display: none;
-  }
-
-
-  }

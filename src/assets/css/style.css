@@ -12153,24 +12153,13 @@ header.interior svg path {
   padding: 10px 0;
   border-bottom: 1px solid #eaeaea;
 }
-.innermarkdown .toc {
-  background-color: #f7f7f7;
-  color: #292929;
-  font-size: 14px;
-  margin: 0 auto 20px;
-  padding: 16px;
-  padding: 20px;
+.innermarkdown ul {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-.innermarkdown .toc ol li a {
-  display: block;
-  color: #292929;
-  padding: 0 8px 8px 0;
-}
-.innermarkdown .toc ol {
-  list-style: none;
-}
-.innermarkdown .toc ol ol {
-  margin-left: 20px;
+.innermarkdown ul li {
+  margin-bottom: 12px;
 }
 .innermarkdown hr {
   margin-top: 20px;
@@ -12182,11 +12171,12 @@ header.interior svg path {
     margin-bottom: 80px;
   }
 }
-.innermarkdown p {
-  font-size: 18px;
+.innermarkdown p, .innermarkdown li {
+  font-size: 14px;
   line-height: 1.4;
+  margin-bottom: 20px;
 }
-.innermarkdown h2 {
+.innermarkdown h1 {
   margin-top: 24px;
   padding-bottom: 20px;
   width: 100%;
@@ -12194,12 +12184,12 @@ header.interior svg path {
   font-family: "dutti-daily-bold", Helvetica, arial, sans-serif;
   font-weight: 900;
 }
-.innermarkdown h2 {
-  font-size: 24px;
+.innermarkdown h1 {
+  font-size: 34px;
   line-height: 1;
   color: 319px;
   color: 1280px;
-  color: 24px;
+  color: 34px;
   color: 60px;
   color: "px";
   color: "px";
@@ -12207,16 +12197,16 @@ header.interior svg path {
   color: "px";
 }
 @media screen and (min-width: 319px) {
-  .innermarkdown h2 {
+  .innermarkdown h1 {
     font-size: calc(
-          24px + 36 *
+          34px + 26 *
             ((100vw - 319px) / 961)
         );
     line-height: 1;
   }
 }
 @media screen and (min-width: 1280px) {
-  .innermarkdown h2 {
+  .innermarkdown h1 {
     font-size: 60px;
     line-height: 1;
   }
@@ -12230,12 +12220,12 @@ header.interior svg path {
   font-weight: 900;
 }
 .innermarkdown h2 {
-  font-size: 24px;
+  font-size: 34px;
   line-height: 1;
   color: 319px;
   color: 1280px;
-  color: 24px;
-  color: 60px;
+  color: 34px;
+  color: 50px;
   color: "px";
   color: "px";
   color: "px";
@@ -12244,7 +12234,7 @@ header.interior svg path {
 @media screen and (min-width: 319px) {
   .innermarkdown h2 {
     font-size: calc(
-          24px + 36 *
+          34px + 16 *
             ((100vw - 319px) / 961)
         );
     line-height: 1;
@@ -12252,7 +12242,7 @@ header.interior svg path {
 }
 @media screen and (min-width: 1280px) {
   .innermarkdown h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1;
   }
 }
@@ -12264,12 +12254,12 @@ header.interior svg path {
   font-weight: 900;
 }
 .innermarkdown h3 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1;
   color: 319px;
   color: 1280px;
-  color: 20px;
-  color: 35px;
+  color: 24px;
+  color: 40px;
   color: "px";
   color: "px";
   color: "px";
@@ -12278,7 +12268,7 @@ header.interior svg path {
 @media screen and (min-width: 319px) {
   .innermarkdown h3 {
     font-size: calc(
-          20px + 15 *
+          24px + 16 *
             ((100vw - 319px) / 961)
         );
     line-height: 1;
@@ -12286,24 +12276,110 @@ header.interior svg path {
 }
 @media screen and (min-width: 1280px) {
   .innermarkdown h3 {
-    font-size: 35px;
+    font-size: 40px;
     line-height: 1;
   }
 }
 .innermarkdown h4 {
   margin-top: 24px;
-  font-family: "dutti-daily-regular", Helvetica, arial, sans-serif;
-  font-weight: 500;
+  font-family: "dutti-daily-bold", Helvetica, arial, sans-serif;
+  font-weight: 900;
   padding-bottom: 8px;
-  font-size: 32px;
+}
+.innermarkdown h4 {
+  font-size: 20px;
+  line-height: 1;
+  color: 319px;
+  color: 1280px;
+  color: 20px;
+  color: 30px;
+  color: "px";
+  color: "px";
+  color: "px";
+  color: "px";
+}
+@media screen and (min-width: 319px) {
+  .innermarkdown h4 {
+    font-size: calc(
+          20px + 10 *
+            ((100vw - 319px) / 961)
+        );
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .innermarkdown h4 {
+    font-size: 30px;
+    line-height: 1;
+  }
 }
 .innermarkdown h5 {
   margin-top: 0px;
   font-family: "dutti-daily-bold", Helvetica, arial, sans-serif;
   font-weight: 900;
   padding-bottom: 8px;
-  font-size: 18px;
   color: #292929;
+}
+.innermarkdown h5 {
+  font-size: 18px;
+  line-height: 1;
+  color: 319px;
+  color: 1280px;
+  color: 18px;
+  color: 20px;
+  color: "px";
+  color: "px";
+  color: "px";
+  color: "px";
+}
+@media screen and (min-width: 319px) {
+  .innermarkdown h5 {
+    font-size: calc(
+          18px + 2 *
+            ((100vw - 319px) / 961)
+        );
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .innermarkdown h5 {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+.innermarkdown h6 {
+  margin-top: 0px;
+  font-family: "dutti-daily-bold", Helvetica, arial, sans-serif;
+  font-weight: 900;
+  padding-bottom: 8px;
+  color: #292929;
+}
+.innermarkdown h6 {
+  font-size: 14px;
+  line-height: 1;
+  color: 319px;
+  color: 1280px;
+  color: 14px;
+  color: 18px;
+  color: "px";
+  color: "px";
+  color: "px";
+  color: "px";
+}
+@media screen and (min-width: 319px) {
+  .innermarkdown h6 {
+    font-size: calc(
+          14px + 4 *
+            ((100vw - 319px) / 961)
+        );
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .innermarkdown h6 {
+    font-size: 18px;
+    line-height: 1;
+  }
 }
 .innermarkdown .eleventy-plugin-youtube-embed {
   width: 120% !important;
@@ -12323,31 +12399,10 @@ header.interior svg path {
     margin-bottom: 64px;
   }
 }
-.innermarkdown h2 .anchor-link,
-.innermarkdown h3 .anchor-link,
-.innermarkdown h4 .anchor-link {
-  position: absolute;
-  font-size: 24px;
-  opacity: 0;
-  transition: all ease 0.2s;
-  display: none;
-}
-.innermarkdown h2:hover .anchor-link,
-.innermarkdown h3:hover .anchor-link,
-.innermarkdown h4:hover .anchor-link {
-  opacity: 0.5;
-}
-
-blockquote p {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 16px;
-}
-blockquote p img {
-  width: 100%;
-}
-blockquote p br {
-  display: none;
+.innermarkdown blockquote {
+  background-color: #f1f1f1;
+  padding: 16px;
+  border-left: 5px solid purple;
 }
 
 .brand-partner {

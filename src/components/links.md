@@ -16,4 +16,4 @@ imageAlt: Ilustración de un diseño de sistema web
 
 # Links
 
-¿Te has preguntado alguna vez qué beneficios puede aportar un Design System a tu sitio web? Si es así, has llegado al lugar adecuado. En este artículo, exploraremos los beneficios clave de implementar un Design System en tu proyecto web y cómo puede mejorar la coherencia y eficiencia de tu sitio.
+Los links son elementos interactivos de la interfaz que permiten al usuario identificar una acción que lo llevará a otra página o abrirá otra capa de navegación para continuar o ampliar su experiencia en la web.

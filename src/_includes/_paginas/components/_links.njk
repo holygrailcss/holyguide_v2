@@ -9,23 +9,16 @@ layout: base.njk
 </div>
 <div class="main-content innermarkdown ">{{ content | safe }}
 
-  {% call tokens.link('link-line','350') %}
+  {% call tokens.link('link-line','Link básico') %}
   {% endcall %}
 
-  {% call tokens.link('link-raw','350','Loop marquee ') %}
+  {% call tokens.link('link-raw','Link con una línea o múltiple') %}
   {% endcall %}
 
-  {% call insert.links('link-raw' ,'Link básico','','') %}
-  {% endcall %}
-  {% call insert.links('link-line','Link con una línea o múltiple','','') %}
+  {% call tokens.linkPre('link-svg-pre','Link con icono svg-icon al inicio') %}
   {% endcall %}
 
-  {% call insert.links('link-svg-pre','Link con icono svg-icon al inicio','pre','') %}
-  {% endcall %}
-  {% call insert.links('link-svg-post','Link con icono svg-icon al final','post','') %}
-  {% endcall %}
-
-  {% call insert.links('is-error','Links con error','is-error','') %}
+  {% call tokens.linkPost('link-svg-post','Link con icono svg-icon al final') %}
   {% endcall %}
 
 </div>

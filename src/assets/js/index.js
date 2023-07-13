@@ -30,6 +30,30 @@ $(document).ready(function () {
 
   initvideo();
 
+
+  if (document.querySelector(".btncode")) {
+    var clipboard = new ClipboardJS(".btncode");
+    clipboard.on("success", function (e) {
+      console.info("Action:", e.action);
+      console.info("Text:", e.text);
+      console.info("Trigger:", e.trigger);
+      e.clearSelection();
+    });
+  }
+  
+  $(".check-16").on("click", function() {
+    document.querySelectorAll("svg").forEach(icon => {
+      if(icon.getBoundingClientRect().width!=16 || icon.getBoundingClientRect().height!=16) {
+        icon.querySelectorAll("path").forEach(path => {
+          path.setAttribute("style", "fill: red;");
+        });
+      }
+    });
+  });
+  
+
+
+
 });
 
 
@@ -474,17 +498,6 @@ $(".over3").on("click", function (e) {
 $(".to-top").on("click", function() {
   $(window).scrollTop(0);
 });
-
-
-if (document.querySelector(".btncode")) {
-  var clipboard = new ClipboardJS(".btncode");
-  clipboard.on("success", function (e) {
-    console.info("Action:", e.action);
-    console.info("Text:", e.text);
-    console.info("Trigger:", e.trigger);
-    e.clearSelection();
-  });
-}
 
 
 

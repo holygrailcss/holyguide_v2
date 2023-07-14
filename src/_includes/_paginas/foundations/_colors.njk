@@ -5,7 +5,6 @@ layout: base.njk
   {% include '_website/hero.njk' %}
 </div>
 
-
 <section class="front-section bg-light">
   <div class="container-full   align-middle">
     <div class="row">
@@ -18,63 +17,84 @@ layout: base.njk
   </div>
 </section>
 <section>
-<div class="row">
-  <div class="col-xs-12">
-    <div class="main-content innermarkdown ">{{ content | safe }}
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="main-content innermarkdown ">{{ content | safe }}
+        <h2>Primarios</h2>
         <div class="row">
-                <div class="col-xs-12"> 
-<h2>Primarios</h2>
-{% for color in global.coloresPrimarios %}
-                    <div class="guide-colors text-center">
-                        <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};">
-                        </div>
-                        <div class="guide-colors-text">
-                            <div class="p-xs"> <span>Hex:</span> {{ color.hex }}  </div>
-                            <div class="p-xs"> <span>Variable Color:</span> ${{ color.variable }}  </div>
-                            <div class="p-xs"> <span>Font color:</span> .{{ color.font }}</div>
-                            <div class="p-xs"> <span >Background Color:</span> {{ color.bg }}</div>
-                        </div>
-                    </div> 
-                    {% endfor %}
-                  </div>     
-                  </div> 
-                  <div class="row">
-                    <div class="col-xs-12"> 
-                      <h2>Semánticos</h2>
-{% for color in global.coloresSemanticos %}
-                    <div class="guide-colors text-center">
-                        <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};">
-                        </div>
-                        <div class="guide-colors-text">
-                            <div class="p-xs"> <span>Hex:</span> {{ color.hex }}  </div>
-                            <div class="p-xs"> <span>Variable Color:</span> ${{ color.variable }}  </div>
-                            <div class="p-xs"> <span>Font color:</span> .{{ color.font }}</div>
-                            <div class="p-xs"> <span >Background Color:</span> {{ color.bg }}</div>
-                        </div>
-                    </div> 
-                    {% endfor %}
-                  </div>     
-                </div> 
-                <div class="row">
-                  <div class="col-xs-12"> 
-                    <h2>Feel</h2>
-                    {% for color in global.coloresFeel %}
-                    <div class="guide-colors text-center">
-                        <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};">
-                        </div>
-                        <div class="guide-colors-text">
-                            <div class="p-xs"> <span>Hex:</span> {{ color.hex }}  </div>
-                            <div class="p-xs"> <span>Variable Color:</span> ${{ color.variable }}  </div>
-                            <div class="p-xs"> <span>Font color:</span> .{{ color.font }}</div>
-                            <div class="p-xs"> <span >Background Color:</span> {{ color.bg }}</div>
-                        </div>
-                    </div> 
-                    {% endfor %}
-                  </div>     
-                </div> 
+          <div class="col-xs-12">
+            {% for color in global.coloresPrimarios %}
+              <div class="guide-colors text-center">
+                <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};"></div>
+                <div class="guide-colors-text">
+                  <div class="p-xs">
+                    <span>Hex:</span>
+                    {{ color.hex }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Variable Color:</span> ${{ color.variable }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Font color:</span> .{{ color.font }}</div>
+                  <div class="p-xs">
+                    <span >Background Color:</span>
+                    .{{ color.bg }}</div>
                 </div>
-            </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <h2>Semánticos</h2>
+        <div class="row">
+          <div class="col-xs-12">
+            {% for color in global.coloresSemanticos %}
+              <div class="guide-colors text-center">
+                <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};"></div>
+                <div class="guide-colors-text">
+                  <div class="p-xs">
+                    <span>Hex:</span>
+                    {{ color.hex }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Variable Color:</span> ${{ color.variable }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Font color:</span> .{{ color.font }}</div>
+                  <div class="p-xs">
+                    <span >Background Color:</span>
+                    .{{ color.bg }}</div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        <h2>Feel</h2>
+        <div class="row">
+          <div class="col-xs-12">
+            {% for color in global.coloresFeel %}
+              <div class="guide-colors text-center">
+                <div class="guide-colors-bg text-center" style="background-color:{{ color.hex }};"></div>
+                <div class="guide-colors-text">
+                  <div class="p-xs">
+                    <span>Hex:</span>
+                    {{ color.hex }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Variable Color:</span> ${{ color.variable }}
+                  </div>
+                  <div class="p-xs">
+                    <span>Font color:</span> .{{ color.font }}</div>
+                  <div class="p-xs">
+                    <span >Background Color:</span>
+                    .{{ color.bg }}</div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 </div>
 </section>

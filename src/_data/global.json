@@ -100,61 +100,97 @@
   "coloresPrimarios": [
     {
       "hex": "#292929",
-      "variable": "#292929",
-      "font": "#292929",
-      "bg": "#292929"
+      "variable": "c-primary",
+      "font": "c-primary",
+      "bg": ".bg-primary"
     },
     {
       "hex": "#000000",
-      "variable": "#000000",
-      "font": "#000000",
-      "bg": "#000000"
+      "variable": "c-black",
+      "font": "c-black",
+      "bg": "bg-black"
     },
     {
       "hex": "#8e8e8e",
-      "variable": "#8e8e8e",
-      "font": "#8e8e8e",
-      "bg": "#8e8e8e"
+      "variable": "c-dark-grey",
+      "font": "c-dark-grey",
+      "bg": "bg-dark-grey"
+    },
+    {
+      "hex": "#e3e3e3",
+      "variable": "c-middle-grey",
+      "font": "c-middle-grey",
+      "bg": "bg-middle-grey"
+    },
+    {
+      "hex": "#f0f0f0",
+      "variable": "c-light-grey",
+      "font": "c-light-grey",
+      "bg": "bg-light-grey"
+    },
+    {
+      "hex": "#ffffff",
+      "variable": "c-white",
+      "font": "c-white",
+      "bg": "bg-white"
     }
   ],
   "coloresSemanticos": [
     {
-      "hex": "#292929",
-      "variable": "#292929",
-      "font": "#292929",
-      "bg": "#292929"
+      "hex": "#b40016",
+      "variable": "c-error",
+      "font": "c-error",
+      "bg": "bg-error"
     },
     {
-      "hex": "#000000",
-      "variable": "#000000",
-      "font": "#000000",
-      "bg": "#000000"
+      "hex": "#b40016",
+      "variable": "c-sale",
+      "font": "c-sale",
+      "bg": "bg-sale"
     },
     {
-      "hex": "#8e8e8e",
-      "variable": "#8e8e8e",
-      "font": "#8e8e8e",
-      "bg": "#8e8e8e"
+      "hex": "#1a32a4",
+      "variable": "c-info",
+      "font": "c-info",
+      "bg": "bg-info"
+    },
+    {
+      "hex": "#76ae4a",
+      "variable": "c-success",
+      "font": "c-success",
+      "bg": "bg-success"
+    },
+    {
+      "hex": "#ffc700",
+      "variable": "c-warning",
+      "font": "c-warning",
+      "bg": "bg-warning"
+    },
+    {
+      "hex": "#fb9962",
+      "variable": "c-feel",
+      "font": "c-feel",
+      "bg": "bg-feel"
     }
   ],
   "coloresFeel": [
     {
-      "hex": "#292929",
-      "variable": "#292929",
-      "font": "#292929",
-      "bg": "#292929"
+      "hex": "#fb9962",
+      "variable": "c-feel",
+      "font": "c-feel",
+      "bg": "bg-feel"
     },
     {
-      "hex": "#000000",
-      "variable": "#000000",
-      "font": "#000000",
-      "bg": "#000000"
+      "hex": "#c94c07",
+      "variable": "c-feel-dark",
+      "font": "c-feel-dark",
+      "bg": "bg-feel-dark"
     },
     {
-      "hex": "#8e8e8e",
-      "variable": "#8e8e8e",
-      "font": "#8e8e8e",
-      "bg": "#8e8e8e"
+      "hex": "#fccbb0",
+      "variable": "c-feel-light",
+      "font": "c-feel-light",
+      "bg": "bg-feel-light"
     }
   ],
   "tipografias": [

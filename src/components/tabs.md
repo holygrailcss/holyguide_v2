@@ -3,7 +3,7 @@ layout: _paginas/components/_tabs.njk
 permalink: /tabs/
 
 titulo: Tabs
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

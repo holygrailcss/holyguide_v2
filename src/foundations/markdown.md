@@ -3,7 +3,7 @@ layout: _paginas/foundations/_foundations.njk
 permalink: /markdown/
 
 titulo: Markdown
-descripcion: XX falta texto descriptivo
+descripcion: .
 date: 2023-06-19
 
 

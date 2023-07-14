@@ -3,7 +3,7 @@ layout: _paginas/components/_input.njk
 permalink: /input/
 
 titulo: input
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

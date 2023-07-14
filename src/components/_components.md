@@ -3,7 +3,7 @@ layout: _paginas/components/_components.njk
 permalink: /components/
 
 titulo: Components
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 page_section: components
 
@@ -15,6 +15,7 @@ imageAlt: Ilustración de un diseño de sistema web
 
 ---
 
-# inicio de componentes
+# Componentes
 
-¿Te has preguntado alguna vez qué beneficios puede aportar un Design System a tu sitio web? Si es así, has llegado al lugar adecuado. En este artículo, exploraremos los beneficios clave de implementar un Design System en tu proyecto web y cómo puede mejorar la coherencia y eficiencia de tu sitio.
+Los componentes son los componentes básicos reutilizables de nuestro sistema de diseño. Cada componente cumple con una interacción específica o una necesidad de interfaz de usuario, y se ha creado específicamente para trabajar en conjunto para crear patrones y experiencias de usuario intuitivas.
+

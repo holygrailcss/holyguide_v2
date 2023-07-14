@@ -3,7 +3,7 @@ layout: _paginas/components/_select.njk
 permalink: /select/
 
 titulo: Select
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

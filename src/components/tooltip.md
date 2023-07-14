@@ -3,7 +3,7 @@ layout: _paginas/components/_tooltip.njk
 permalink: /tooltip/
 
 titulo: Select
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

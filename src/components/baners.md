@@ -3,7 +3,7 @@ layout: _paginas/components/_baners.njk
 permalink: /baners/
 
 titulo: Baners
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

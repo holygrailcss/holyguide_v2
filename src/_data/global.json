@@ -66,6 +66,37 @@
       "descripcion": "Descripción 3"
     }
   ],
+  "placeholders": [
+    { "placeholder": "2-3" },
+    { "placeholder": "3-4" },
+    { "placeholder": "1-1" },
+    { "placeholder": "2-1" },
+    { "placeholder": "4-3" },
+    { "placeholder": "3-2" },
+    { "placeholder": "16-9" },
+    { "placeholder": "4-2" },
+    { "placeholder": "66" },
+    { "placeholder": "33" },
+    { "placeholder": "21-9" },
+    { "placeholder": "30" },
+    { "placeholder": "105" },
+    { "placeholder": "AR_SOCIAL_4" },
+    { "placeholder": "AR_SOCIAL_6" },
+    { "placeholder": "bg-light" }
+  ],
+
+  "ratios": [
+    { "ratio": "2-3" },
+    { "ratio": "3-4" },
+    { "ratio": "1-1" },
+    { "ratio": "2-1" },
+    { "ratio": "4-3" },
+    { "ratio": "3-2" },
+    { "ratio": "16-9" },
+    { "ratio": "4-2" },
+    { "ratio": "21-9" }
+
+  ],
   "coloresPrimarios": [
     {
       "hex": "#292929",
@@ -293,18 +324,14 @@
     { "class": "btn-phantom" },
     { "class": "btn-clear" },
     { "class": "btn-text" },
-
     { "class": "link-raw" },
     { "class": "link-line" }
-
   ],
-
   "ButtonSize": [
     { "size": "btn--mini" },
     { "size": "btn--small" },
     { "size": "btn--medium" },
     { "size": "btn--large" },
     { "size": "btn--full" }
-
   ]
 }

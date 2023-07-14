@@ -3,7 +3,7 @@ layout: _paginas/components/_buttons.njk
 permalink: /buttons/
 
 titulo: Buttons
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

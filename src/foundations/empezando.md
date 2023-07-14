@@ -4,7 +4,7 @@ permalink: /empezando/
 
 
 titulo: Empezando
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 
 date: 2023-06-19

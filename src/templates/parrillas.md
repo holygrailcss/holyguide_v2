@@ -1,6 +1,8 @@
 ---
-layout: _parrillas/_parrillas-collection2.njk
-permalink: /parrillas-collection2/
+layout: _paginas/templates/_parrillas.njk
+permalink: /parrillas/
+page_section: templates
+
 
 titulo: Parrillas
 descripcion: Parrillas colección
@@ -9,6 +11,6 @@ image: /assets/static/images/8.jpg
 
 author: autor
 date: 2023-07-10
-tags: ["page"]
+tags: ["templates"]
 imageAlt: Contacta
 ---

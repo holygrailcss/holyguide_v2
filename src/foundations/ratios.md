@@ -1,9 +1,10 @@
 ---
-layout: _paginas/foundations/_foundations.njk
+layout: _paginas/foundations/_ratios.njk
 permalink: /ratios/
 
 titulo: Ratios
-descripcion: XX falta texto descriptivo
+descripcion: Contenedores que conservan una relación de aspecto definida.
+
 
 
 date: 2023-06-19
@@ -15,12 +16,11 @@ imageAlt: Ilustración de un diseño de sistema web
 
 ---
 
-Contenedores que conservan una relación de aspecto definida.
-### Como se usa
-Para poder usar el ratio solo tenemos que incluirlo dentro de .rat-2-1.rat-content para que su contenido tenga posicion absoluta.
+### Como se usan
+Para poder usar el ratio solo tenemos que incluirlo dentro de ```.rat-2-1.rat-content``` para que su contenido tenga posicion absoluta.
 
 Adjuntamos los paddings-tops para los ratios.
-Si no existe tu ratio puedes crear nuevos ratios de esta manera. @include ratio(ancho, alto);
+Si no existe tu ratio puedes crear nuevos ratios de esta manera. ```@include ratio(ancho, alto);```
 
 
 
@@ -32,14 +32,6 @@ Si no existe tu ratio puedes crear nuevos ratios de esta manera. @include ratio(
 </div>
 ```
 
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/2-3.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/3-4.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/1-1.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/4-3.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/3-2.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/16-9.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/2-1.jpg)
->![Descripción de la imagen](https://holygrailcss.github.io/assets/placeholder/21-9.jpg)
 
 
 

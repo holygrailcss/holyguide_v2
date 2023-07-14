@@ -3,7 +3,7 @@ layout: _paginas/foundations/_foundations.njk
 permalink: /helpers/
 
 titulo: Helpers
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 date: Last Modified
 fecha: 19 de junio de 2023

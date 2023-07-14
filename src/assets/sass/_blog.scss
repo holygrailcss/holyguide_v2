@@ -11,6 +11,20 @@ table{
   }
 }
 
+ td:first-child {
+  width: 18%;
+  min-width: 58px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+ th {
+  color: #5c6b77;
+  font-weight: 500;
+  white-space: nowrap;
+  background: rgba(0, 0, 0, 0.02);
+  border-width: 1px 1px 2px;
+}
+
 ul{
   padding-left: 40px;
   margin-bottom: 20px;
@@ -73,7 +87,7 @@ ul{
   h6 {
     margin-top: 0px;
     @include font-bold();
-    padding-bottom: 8px;
+    margin-bottom: 24px;
     @include fluid-text($min_width, $break-lg, 14px, 18px, 1);
     color: $c-secondary;
   }

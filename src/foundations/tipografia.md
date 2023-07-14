@@ -3,7 +3,7 @@ layout: _paginas/foundations/_tipografia.njk
 permalink: /tipografia/
 
 titulo: Tipografias
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 date: 2023-06-19
 fecha: 19 de junio de 2023

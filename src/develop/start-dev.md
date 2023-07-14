@@ -4,7 +4,7 @@ permalink: /start-dev/
 page_section: develop
 
 titulo: Start Dev
-descripcion: XX falta texto descriptivo
+descripcion: .
 
 ---
 

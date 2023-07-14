@@ -1,6 +1,4 @@
-@import "_variables.scss";
-
-
+@import '_variables.scss';
 
 @mixin space-0-pdesktop {
   padding-left: 0;
@@ -9,9 +7,7 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-
 }
-
 
 @mixin space-0-0 {
   padding-left: 0;
@@ -21,7 +17,7 @@
     padding-right: 0;
   }
 }
-@mixin space-pmobile-pdesktop{ 
+@mixin space-pmobile-pdesktop {
   padding-left: 16px;
   padding-right: 16px;
   @media (min-width: $break-md) {
@@ -30,11 +26,8 @@
   }
 }
 
-
-
-
 @mixin details-pmobile-0 {
-.card9-wrap-details {
+  .card9-wrap-details {
     padding-left: 16px;
     @media (min-width: $break-md) {
       padding-left: 0;
@@ -42,12 +35,11 @@
   }
 }
 
-
 @mixin details-pmobile-pdesktop {
-    .card9-wrap-details {
-        padding-left: 16px;
-        // @media (min-width: $break-md) {
-        //   padding-left: 40px;
-        // }
-      }
-    }
+  .card9-wrap-details {
+    padding-left: 16px;
+    // @media (min-width: $break-md) {
+    //   padding-left: 40px;
+    // }
+  }
+}

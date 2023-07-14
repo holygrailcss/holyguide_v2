@@ -10,7 +10,9 @@
     "build:sass": "sass  --no-source-map --style=expanded src//assets/sass:src//assets/css",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
-    "debug": "DEBUG=* npx eleventy"
+    "debug": "DEBUG=* npx eleventy",
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier 'src/assets/sass/**/*.+(css|scss)'"
   },
   "repository": {
     "type": "git",

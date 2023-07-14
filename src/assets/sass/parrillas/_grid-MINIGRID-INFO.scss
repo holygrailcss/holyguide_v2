@@ -1,4 +1,4 @@
-@import "../abstract/_all.scss";
+@import '../abstract/_all.scss';
 $MINIGRID-INFO-COLS: 3;
 $MINIGRID-INFO-GUTTER: 16px;
 $MINIGRID-INFO-GUTTER-SM: 8px;
@@ -8,12 +8,12 @@ $MINIGRID-INFO-GUTTER-SM: 8px;
   justify-content: flex-start;
   gap: 16px;
   .grid-product-list--MINIGRID-INFO {
-    flex-basis: calc( (100% / $MINIGRID-INFO-COLS) - ((#{$MINIGRID-INFO-GUTTER-SM} * 2) / 3) );
+    flex-basis: calc((100% / $MINIGRID-INFO-COLS) - ((#{$MINIGRID-INFO-GUTTER-SM} * 2) / 3));
   }
   @media (min-width: $break-sm) {
     gap: 16px;
     .grid-product-list--MINIGRID-INFO {
-      flex-basis: calc( (100% / $MINIGRID-INFO-COLS) - ((#{$MINIGRID-INFO-GUTTER} * 2) / 3) );
+      flex-basis: calc((100% / $MINIGRID-INFO-COLS) - ((#{$MINIGRID-INFO-GUTTER} * 2) / 3));
     }
   }
 }

@@ -1,4 +1,4 @@
-@import "../abstract/_all.scss";
+@import '../abstract/_all.scss';
 $separator-50-height: 33.3%;
 .grid-product-wrap--separator50 {
   height: 100%;
@@ -6,7 +6,7 @@ $separator-50-height: 33.3%;
   margin: 0;
   .rat-3-2::before {
     display: block;
-    content: "";
+    content: '';
     width: 100%;
     padding-top: $separator-50-height;
   }

@@ -75,15 +75,15 @@ $grid-cols--1CC: 2;
 // }
 
 .grid-product-wrap--1CC {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	gap: 16px;
-	@include details-pmobile-pdesktop;
-	@media (min-width: $break-sm) {
-	  grid-template-columns: repeat(12, 1fr);
-	  .grid-product-list--1CC {
-		grid-column: span 6;
-	  }
-	}
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 16px;
+  @include details-pmobile-pdesktop;
+  @media (min-width: $break-sm) {
+    grid-template-columns: repeat(12, 1fr);
+    .grid-product-list--1CC {
+      grid-column: span 6;
+    }
   }
+}

@@ -1,26 +1,23 @@
-@import "base/_fonts.scss";
-@import "abstract/_setup.scss";
+@import 'base/_fonts.scss';
+@import 'abstract/_setup.scss';
 
 $space-left: calc(((100vw - 1280px) / 2));
 $width-left: calc((1280px + (100vw - 1280px) / 2));
-@import "../../../node_modules/holygrailcss/scss/style.scss";
+@import '../../../node_modules/holygrailcss/scss/style.scss';
 // -FASE 4 : OVERRIDE YOUR HOLYGRAIL
-@import "./prism.scss";
-@import "./header2.scss";
-@import "./_menu.scss";
-@import "./_swiper.scss";
-@import "./_video.scss";
-@import "./_blog.scss";
-@import "./_brands.scss";
-@import "./_resize.scss";
-@import "./_dummyproduct.scss";
-@import "./guia.scss";
-@import "./theme.scss";
+@import './prism.scss';
+@import './header2.scss';
+@import './_menu.scss';
+@import './_swiper.scss';
+@import './_video.scss';
+@import './_blog.scss';
+@import './_brands.scss';
+@import './_resize.scss';
+@import './_dummyproduct.scss';
+@import './guia.scss';
+@import './theme.scss';
 
-
-@import "parrillas/_all.scss";
-
-
+@import 'parrillas/_all.scss';
 
 //@import "parrillas/*";
 $primary-color: var(--primary-color);
@@ -30,8 +27,6 @@ $bg-dark: var(--bg-dark);
 $c-bg-dark: var(--c-bg-dark);
 $bg-light: var(--bg-light);
 $c-bg-light: var(--c-bg-light);
-
-
 
 body {
   overflow-x: hidden;
@@ -69,14 +64,9 @@ a {
   }
 }
 
-
-
-
 .header-img {
   position: relative;
 }
-
-
 
 .ttc {
   text-transform: capitalize;
@@ -85,7 +75,7 @@ a {
   max-width: 1600px;
 }
 .product-tag {
-  font-family: "dutti-daily-bold";
+  font-family: 'dutti-daily-bold';
   font-size: 14px;
   color: #292929;
   letter-spacing: 0;
@@ -102,40 +92,34 @@ a {
   color: white;
   font-size: 12px;
   font-weight: bold;
-
 }
-.grid-product, ul {
+.grid-product,
+ul {
   position: relative;
 }
 
-
-.list-grid{
-  
+.list-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 16px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  }
-
-  .masonry{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 16px;
-    width: 100%;
-    align-items: start;
-    
-  }
-
-code {
-    margin: 0 1px;
-    padding: 0.2em 0.4em;
-    font-size: 0.9em;
-    background: rgba(0, 0, 0, 0.04);
-    border: 1px solid rgba(5, 5, 5, 0.06);
-    border-radius: 3px;
 }
 
+.masonry {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  align-items: start;
+}
 
-
+code {
+  margin: 0 1px;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(5, 5, 5, 0.06);
+  border-radius: 3px;
+}

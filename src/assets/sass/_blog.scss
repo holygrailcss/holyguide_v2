@@ -1,38 +1,40 @@
 .innermarkdown {
   padding-bottom: 40px;
 
-table{
-  width: 100%;
-  text-align: left;
+  table {
+    width: 100%;
+    text-align: left;
 
-  th, tr, td{
-    padding: 10px 0;
-    border-bottom: 1px solid #eaeaea;
+    th,
+    tr,
+    td {
+      padding: 10px 0;
+      border-bottom: 1px solid #eaeaea;
+    }
   }
-}
 
- td:first-child {
-  width: 18%;
-  min-width: 58px;
-  font-weight: 600;
-  white-space: nowrap;
-}
- th {
-  color: #5c6b77;
-  font-weight: 500;
-  white-space: nowrap;
-  background: rgba(0, 0, 0, 0.02);
-  border-width: 1px 1px 2px;
-}
-
-ul{
-  padding-left: 40px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  li{
-    margin-bottom: 12px;
+  td:first-child {
+    width: 18%;
+    min-width: 58px;
+    font-weight: 600;
+    white-space: nowrap;
   }
-}
+  th {
+    color: #5c6b77;
+    font-weight: 500;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.02);
+    border-width: 1px 1px 2px;
+  }
+
+  ul {
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    li {
+      margin-bottom: 12px;
+    }
+  }
 
   hr {
     margin-top: 20px;
@@ -42,7 +44,8 @@ ul{
       margin-bottom: 80px;
     }
   }
-  p,li {
+  p,
+  li {
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 20px;
@@ -92,7 +95,6 @@ ul{
     color: $c-secondary;
   }
 
-
   .eleventy-plugin-youtube-embed {
     width: 120% !important;
     transform: translateX(-8%);
@@ -110,18 +112,13 @@ ul{
     }
   }
 
-
-
-blockquote  {
-background-color: #f1f1f1;
-padding: 16px 16px 1px 16px;
-border-left: 5px solid purple;
-p{
-
-  line-height: 2;
-  font-style: italic;
-}
-
-
+  blockquote {
+    background-color: #f1f1f1;
+    padding: 16px 16px 1px 16px;
+    border-left: 5px solid purple;
+    p {
+      line-height: 2;
+      font-style: italic;
+    }
   }
 }

@@ -1,5 +1,5 @@
-@import "../abstract/_all.scss";
-@import "../abstract/_categoryGrid.scss";
+@import '../abstract/_all.scss';
+@import '../abstract/_categoryGrid.scss';
 // cambio @import "../../../../../../../../../../app/shared/product/components/product-skeleton/product-skeleton.component.scss";
 
 $break-sm--2DS: 767px;
@@ -69,7 +69,7 @@ $product-details-padding-mobile--2DS: 24px;
     grid-template-columns: repeat(12, 1fr);
     .grid-product-list--2DS {
       grid-column: span 6;
-	  align-self: start;
+      align-self: start;
     }
   }
 
@@ -80,6 +80,6 @@ $product-details-padding-mobile--2DS: 24px;
   }
 
   .card9 .card9-wrap-details {
-	position: static;
+    position: static;
   }
 }

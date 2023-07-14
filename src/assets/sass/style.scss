@@ -77,7 +77,7 @@ a {
 .product-tag {
   font-family: 'dutti-daily-bold';
   font-size: 14px;
-  color: #292929;
+  color: $c-primary;
   letter-spacing: 0;
   line-height: 16px;
 }
@@ -122,4 +122,10 @@ code {
   background: rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(5, 5, 5, 0.06);
   border-radius: 3px;
+}
+
+.texto-ellipsis {
+  height: 50px;
+
+  overflow: hidden;
 }

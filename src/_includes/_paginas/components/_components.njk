@@ -14,7 +14,7 @@ layout: base.njk
         {{ content | safe }}</div>
 
         <div class="list-grid"> 
-            {% for component in collections.components | reverse %}
+            {% for component in collections.components  %}
               {% include 'token-loop.njk' %}
             {% endfor %}
 

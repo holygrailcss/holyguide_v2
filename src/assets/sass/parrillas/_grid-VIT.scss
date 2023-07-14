@@ -1,4 +1,4 @@
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 .grid-product-wrap--VIT {
   margin: 0 48px;
@@ -32,7 +32,7 @@
 
     &:before {
       display: block;
-      content: '';
+      content: "";
       width: 100%;
       padding-top: calc(66.66667% + 280px);
       background-color: $c-white;
@@ -44,7 +44,7 @@
 
     &::marker {
       display: none;
-      content: '';
+      content: "";
     }
   }
 

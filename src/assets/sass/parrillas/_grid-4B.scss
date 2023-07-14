@@ -1,4 +1,4 @@
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 $grid-cols--4B: 4;
 
@@ -42,7 +42,7 @@ $grid-cols--4B: 4;
 
     &:before {
       display: block;
-      content: '';
+      content: "";
       width: 100%;
       padding-top: calc(133.25% + 126px);
       background-color: $c-white;
@@ -54,7 +54,7 @@ $grid-cols--4B: 4;
 
     &::marker {
       display: none;
-      content: '';
+      content: "";
     }
   }
 
@@ -63,7 +63,7 @@ $grid-cols--4B: 4;
 
     &:before {
       display: block;
-      content: '';
+      content: "";
       width: 100%;
       padding-top: 133.25%;
       background-color: $c-white;
@@ -71,7 +71,7 @@ $grid-cols--4B: 4;
 
     &::marker {
       display: none;
-      content: '';
+      content: "";
     }
   }
 }

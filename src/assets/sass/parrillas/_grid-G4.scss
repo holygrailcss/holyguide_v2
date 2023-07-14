@@ -1,5 +1,5 @@
-@import '../abstract/_all.scss';
-@import '../abstract/_categoryGrid.scss';
+@import "../abstract/_all.scss";
+@import "../abstract/_categoryGrid.scss";
 
 $grid-cols--G4: 4;
 $grid-cols-mobile--G4: 2;
@@ -42,7 +42,8 @@ $grid-view1-gutter-md--G4: 48px;
     margin-right: $grid-view1-gutter--G4;
     margin-bottom: 8px;
     width: calc(
-      (100% / #{$grid-cols-mobile--G4}) - ((#{$grid-view1-gutter--G4}) / #{$grid-cols-mobile--G4})
+      (100% / #{$grid-cols-mobile--G4}) -
+        ((#{$grid-view1-gutter--G4}) / #{$grid-cols-mobile--G4})
     );
 
     @media (min-width: $break-sm) {
@@ -57,7 +58,8 @@ $grid-view1-gutter-md--G4: 48px;
       margin-bottom: 16px;
       margin-right: $grid-view1-gutter-md--G4;
       width: calc(
-        (100% / #{$grid-cols--G4}) - ((#{$grid-view1-gutter-md--G4} * 3) / #{$grid-cols--G4})
+        (100% / #{$grid-cols--G4}) -
+          ((#{$grid-view1-gutter-md--G4} * 3) / #{$grid-cols--G4})
       );
     }
   }

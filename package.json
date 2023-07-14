@@ -12,6 +12,7 @@
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* npx eleventy",
     "format": "npm run prettier -- --write",
+    "format:md": "prettier --write 'src/**/*.md'",
     "prettier": "prettier 'src/assets/sass/**/*.+(css|scss)'"
   },
   "repository": {

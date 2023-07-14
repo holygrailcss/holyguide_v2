@@ -5,13 +5,11 @@ permalink: /input/
 titulo: input
 descripcion: .
 
-
 date: 2023-06-19
 fecha: '19 de junio de 2023'
-tags: ["Estructuras modulares", "web design", "components"]
+tags: ['Estructuras modulares', 'web design', 'components']
 image: /assets/static/components/input.jpg
 imageAlt: Ilustración de un diseño de sistema web
-
 ---
 
 # Beneficios de un Design System: Mejora la coherencia y eficiencia de tu web

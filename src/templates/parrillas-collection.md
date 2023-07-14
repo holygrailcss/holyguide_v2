@@ -6,9 +6,8 @@ titulo: Parrillas
 descripcion: Parrillas colección
 image: /assets/static/images/1.jpg
 
-
 author: autor
 date: 2023-07-10
-tags: ["page"]
+tags: ['page']
 imageAlt: Contacta
 ---

@@ -88,7 +88,7 @@
       center/contain no-repeat;
     position: absolute;
     top: 50%;
-    content: '';
+    content: "";
     height: 17px;
     margin-top: -8px;
     width: 11px;
@@ -141,7 +141,7 @@
     border-radius: 0 0 4px 0;
     opacity: 0.6;
     position: absolute;
-    content: 'sass';
+    content: "sass";
     z-index: 100;
     background-color: #eaeaea;
     color: #000000;
@@ -209,7 +209,7 @@
   &::before {
     position: absolute;
     z-index: 1000;
-    content: '';
+    content: "";
     top: 0;
     right: 0;
     left: 0;

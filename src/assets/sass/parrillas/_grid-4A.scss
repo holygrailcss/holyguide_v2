@@ -1,4 +1,4 @@
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 $grid-cols--4A: 4;
 
@@ -36,7 +36,9 @@ $grid-cols--4A: 4;
 
       margin-right: #{$grid-view1-gutter};
       margin-bottom: #{$grid-view1-gutter};
-      width: calc(100% / #{$grid-cols--4A} - ((#{$grid-view1-gutter} * 3) / #{$grid-cols--4A}));
+      width: calc(
+        100% / #{$grid-cols--4A} - ((#{$grid-view1-gutter} * 3) / #{$grid-cols--4A})
+      );
     }
   }
 }

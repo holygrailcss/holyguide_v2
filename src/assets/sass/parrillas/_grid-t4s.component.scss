@@ -1,4 +1,4 @@
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 $grid-cols--4S: 4;
 $grid-cols-mobile--4S: 2;
@@ -60,7 +60,7 @@ $margin-grid-cols-mobile--4S: 10px;
     }
 
     .product-tag {
-      font-family: 'dutti-daily-regular', Helvetica, arial, sans-serif;
+      font-family: "dutti-daily-regular", Helvetica, arial, sans-serif;
       font-size: 12px;
       color: #8e8e8e;
     }
@@ -85,7 +85,9 @@ $margin-grid-cols-mobile--4S: 10px;
     @media (max-width: #{$break-sm}) {
       margin-left: calc(#{$margin-grid-cols-mobile--4S}/ 2);
       margin-right: calc(#{$margin-grid-cols-mobile--4S}/ 2);
-      width: calc((100% / #{$grid-cols-mobile--4S}) - #{$margin-grid-cols-mobile--4S});
+      width: calc(
+        (100% / #{$grid-cols-mobile--4S}) - #{$margin-grid-cols-mobile--4S}
+      );
 
       .product-tag {
         font-size: 9px;

@@ -5,24 +5,19 @@ permalink: /ratios/
 titulo: Ratios
 descripcion: Contenedores que conservan una relación de aspecto definida.
 
-
-
 date: 2023-06-19
 fecha: 19 de junio de 2023
-tags: ["Estructuras modulares", "web design", "foundations"]
+tags: ['Estructuras modulares', 'web design', 'foundations']
 image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un diseño de sistema web
-
-
 ---
 
 ### Como se usan
-Para poder usar el ratio solo tenemos que incluirlo dentro de ```.rat-2-1.rat-content``` para que su contenido tenga posicion absoluta.
+
+Para poder usar el ratio solo tenemos que incluirlo dentro de `.rat-2-1.rat-content` para que su contenido tenga posicion absoluta.
 
 Adjuntamos los paddings-tops para los ratios.
-Si no existe tu ratio puedes crear nuevos ratios de esta manera. ```@include ratio(ancho, alto);```
-
-
+Si no existe tu ratio puedes crear nuevos ratios de esta manera. `@include ratio(ancho, alto);`
 
 ```
 <div class='rat-2-1'>
@@ -31,7 +26,3 @@ Si no existe tu ratio puedes crear nuevos ratios de esta manera. ```@include rat
     </div>
 </div>
 ```
-
-
-
-

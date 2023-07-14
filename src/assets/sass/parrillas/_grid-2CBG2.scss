@@ -1,5 +1,5 @@
-@import '../abstract/_all.scss';
-@import '../abstract/_categoryGrid.scss';
+@import "../abstract/_all.scss";
+@import "../abstract/_categoryGrid.scss";
 
 $grid-cols--2CBG2: 2;
 
@@ -63,7 +63,8 @@ $xl-grid-2CBG2-top-padding: 260px;
     @media (max-width: #{$break-md - 1}) {
       margin-right: #{$sm-grid-2CBG2-view5-gutter};
       width: calc(
-        (100% + #{$sm-grid-2CBG2-view5-gutter} * 3) / 2 - (#{$sm-grid-2CBG2-view5-gutter} * 2)
+        (100% + #{$sm-grid-2CBG2-view5-gutter} * 3) / 2 -
+          (#{$sm-grid-2CBG2-view5-gutter} * 2)
       );
 
       &:nth-child(2n) {
@@ -81,7 +82,9 @@ $xl-grid-2CBG2-top-padding: 260px;
 
       width: calc(
         (100% / #{$grid-cols--2CBG2}) -
-          (#{$grid-cols--2CBG2-gutter} * (#{$grid-cols--2CBG2 + 1} / #{$grid-cols--2CBG2}))
+          (
+            #{$grid-cols--2CBG2-gutter} * (#{$grid-cols--2CBG2 + 1} / #{$grid-cols--2CBG2})
+          )
       );
     }
 
@@ -95,7 +98,9 @@ $xl-grid-2CBG2-top-padding: 260px;
 
       width: calc(
         (100% / #{$grid-cols--2CBG2}) -
-          (#{$xl-grid-cols--2CBG2-gutter} * (#{$grid-cols--2CBG2 + 1} / #{$grid-cols--2CBG2}))
+          (
+            #{$xl-grid-cols--2CBG2-gutter} * (#{$grid-cols--2CBG2 + 1} / #{$grid-cols--2CBG2})
+          )
       );
     }
   }

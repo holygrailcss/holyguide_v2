@@ -1,4 +1,4 @@
-@import '_variables.scss';
+@import "_variables.scss";
 
 @mixin grid-product-view-bleed {
   width: calc(100% + #{$xs-grid-wrap-pad-double});

@@ -1,5 +1,5 @@
-@import './abstract/_all.scss';
-@import './abstract/_gridNEW.scss';
+@import "./abstract/_all.scss";
+@import "./abstract/_gridNEW.scss";
 
 .grid {
   position: fixed;
@@ -172,7 +172,7 @@
   justify-content: center;
   cursor: pointer;
   &::after {
-    content: '';
+    content: "";
     display: block;
     width: 30px;
     height: 30px;
@@ -235,7 +235,7 @@
     position: absolute;
     top: -2px;
     left: -5px;
-    content: '';
+    content: "";
     background-color: rgb(180, 56, 180);
     border-radius: 12px;
     padding: 4px;

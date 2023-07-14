@@ -1,7 +1,7 @@
-@import '../abstract/_all.scss';
-@import '../abstract/_categoryGrid.scss';
+@import "../abstract/_all.scss";
+@import "../abstract/_categoryGrid.scss";
 
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 .look-slider-wrap {
   @include grid-product-view-bleed;
@@ -129,7 +129,7 @@
 
       &:before {
         display: block;
-        content: '';
+        content: "";
         width: auto;
         padding-top: 0;
       }
@@ -195,7 +195,7 @@
   cursor: pointer;
 
   &::before {
-    content: '';
+    content: "";
     width: 32px;
     height: 32px;
     display: block;

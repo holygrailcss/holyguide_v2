@@ -2,20 +2,19 @@
 layout: _paginas/foundations/_foundations.njk
 permalink: /init/
 
-
 titulo: Foundations
 descripcion: Nuestros principios elementales
 
 page_section: foundations
 date: 2023-06-19
 fecha: 19 de junio de 2023
-tags: ["Estructuras modulares", "web design", ""]
+tags: ['Estructuras modulares', 'web design', '']
 image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un diseño de sistema web
-
-
 ---
+
 ## Boilerplate
+
 Aprende a maquetar desde cero con el sistema holygrail
 
 Codesandbox
@@ -25,18 +24,20 @@ Crea un entorno de desarrollo desde cero
 Boilerplate
 Crea un proyecto completo con parcel y gulp en tu local.
 
-
 ## Debug
+
 Antes de nada, vamos a elegir que herramientas vamos a necesitar para poder debugear mientras maquetamos.
+
 ```
 @include debug-divs();   // debugaremos con colores en las divs
 @include debug-imgs();   // Analisis de los links (uso de alts vacios  en imagenes)
 @include debug-links();  // Analisis de los links (uso de alts vacios  en imagenes)
 @include debug-forms();  // Analisis de los formularios y buenas praxis  (textarea. inputs erroneos)
 @include debug-headers();// Analisis de los encabezados
-@include debug-fine();   // depuración de elementos como 
+@include debug-fine();   // depuración de elementos como
 @include debug-all();    // depuración de todos a la vez
 ```
+
 Configuración del archivo setup.scss
 Antes de nada configuraremos la guia, con ella generaremos el siguiente archivo de setup.scss. Después copiaremos y sustituiremos en nuestro archivo setup las diferentes variables, de esta forma, tanto la documentación como el proyecto estarán alineados.
 
@@ -111,28 +112,28 @@ $modalx-xl:995px;
 
 
 $headers: (
- 
-sub-l:(56px,56px,96px,96px, 1.1,bold3), 
-sub-m:(42px,42px,64px,64px, 1.1,bold3), 
-sub-s:(32px,32px,56px,56px, 1.1,bold3), 
-head-l:(56px,56px,96px,96px, 1.1,bold), 
-head-m:(42px,42px,64px,64px, 1.1,bold), 
-head-s:(32px,32px,56px,56px, 1.1,bold), 
-tit-l:(24px,24px,42px, 42px, 1.2 ,bold), 
-tit-m:(20px,20px,32px,32px, 1.2,bold), 
-tit-s:(16px,16px,20px,20px, 1.2,bold), 
-tit-xs:(14px,14px,14px,14px, 1.2,bold), 
-p-l:(18px,18px,20px,20px, 1.3,regular), 
-p-m:(14px, 14px,16px,16px, 1.3,regular), 
-p-m-b:(14px, 14px,16px ,16px, 1.3,bold), 
-p-s:(12px, 12px,13px ,13px, 1.3,regular), 
-p-s-b:(12px, 12px,13px ,13px, 1.3,bold), 
-p-xs:(11px, 11px,12px,12px, 1.3,regular), 
-p-xs-b:(11px, 11px,12px,12px, 1.3,regular), 
-p-xxs-b:(9px, 9px,9px,9px, 1.3,bold), 
-p-18-2b:(18px,18px,18px,18px, 1.3,bold), 
-p-18-b:(18px,18px,18px,18px, 1.3,bold), 
-p-xs:(14px,14px,14px,14px, 1.3,regular), 
+
+sub-l:(56px,56px,96px,96px, 1.1,bold3),
+sub-m:(42px,42px,64px,64px, 1.1,bold3),
+sub-s:(32px,32px,56px,56px, 1.1,bold3),
+head-l:(56px,56px,96px,96px, 1.1,bold),
+head-m:(42px,42px,64px,64px, 1.1,bold),
+head-s:(32px,32px,56px,56px, 1.1,bold),
+tit-l:(24px,24px,42px, 42px, 1.2 ,bold),
+tit-m:(20px,20px,32px,32px, 1.2,bold),
+tit-s:(16px,16px,20px,20px, 1.2,bold),
+tit-xs:(14px,14px,14px,14px, 1.2,bold),
+p-l:(18px,18px,20px,20px, 1.3,regular),
+p-m:(14px, 14px,16px,16px, 1.3,regular),
+p-m-b:(14px, 14px,16px ,16px, 1.3,bold),
+p-s:(12px, 12px,13px ,13px, 1.3,regular),
+p-s-b:(12px, 12px,13px ,13px, 1.3,bold),
+p-xs:(11px, 11px,12px,12px, 1.3,regular),
+p-xs-b:(11px, 11px,12px,12px, 1.3,regular),
+p-xxs-b:(9px, 9px,9px,9px, 1.3,bold),
+p-18-2b:(18px,18px,18px,18px, 1.3,bold),
+p-18-b:(18px,18px,18px,18px, 1.3,bold),
+p-xs:(14px,14px,14px,14px, 1.3,regular),
 p-xs-b:(14px,14px,14px,14px, 1.3,bold),
 );
 
@@ -159,49 +160,47 @@ $headersFluids: (
 
 ```
 
-###  02. Creando la estructura
+### 02. Creando la estructura
+
 Como si se tratase de una construcción, empezaremos por los cimientos y la estructura responsive donde más adelante insertaremos los componentes flexibles.
 Sections
 Empezaremos maquetando por la
 nuestras webs se separarán siempre por sections, muy delimitadas.
+
 ```
 <section m-48 p-48 bleed-8 has-light>
 ```
 
 | Seccionbase | márgenes | paddings | Reticula | Textos     |
-|-------------|----------|----------|----------|------------|
-| < section >   | .m-48    | .p-48    | .bleed-8 | .has-light |
+| ----------- | -------- | -------- | -------- | ---------- |
+| < section > | .m-48    | .p-48    | .bleed-8 | .has-light |
 |             | .m-48    | .p-48    | .bleed-0 |            |
 |             | .m-48    | .p-48    |          |            |
 
-
 ### Container
+
 Elegimos el tipo de container usado
 
-
-
-| Tipo container         |      Descripción          |
-|-------------------|--------------------------|
-| .container-full   |   Ancho máximo de 800px     |
-| .container-fluid  |	  Ancho máximo de full   |
-| .container	      |   Ancho máximo de 800px  |
-| .container-2	|   Ancho máximo de 700px  |
-| .container-3	|   Ancho máximo de 900px  |
-| .container-4	|   Ancho máximo de 356px  |
-| .container-5	|   Ancho máximo de 400px  |
-| .container-6	|   Ancho máximo de 442px  |
-| .container-7	|   Ancho máximo de 595px  |
-| .container-8	|   Ancho máximo de 395px  |
-| .container-9	|   Ancho máximo de 798px  |
-| .container-10	|   Ancho máximo de 432px  |
-| .container-11	|   Ancho máximo de 1080px |
-
-
-
+| Tipo container   | Descripción            |
+| ---------------- | ---------------------- |
+| .container-full  | Ancho máximo de 800px  |
+| .container-fluid | Ancho máximo de full   |
+| .container       | Ancho máximo de 800px  |
+| .container-2     | Ancho máximo de 700px  |
+| .container-3     | Ancho máximo de 900px  |
+| .container-4     | Ancho máximo de 356px  |
+| .container-5     | Ancho máximo de 400px  |
+| .container-6     | Ancho máximo de 442px  |
+| .container-7     | Ancho máximo de 595px  |
+| .container-8     | Ancho máximo de 395px  |
+| .container-9     | Ancho máximo de 798px  |
+| .container-10    | Ancho máximo de 432px  |
+| .container-11    | Ancho máximo de 1080px |
 
 ### Row
+
 Colocamos el row , siempre es flex menos en el primer breakpoint sm El orden en el que colocaremos los modificadores será el siguiente.
 
 ### Columnas
-Colocamos el row , siempre es flex menos en el primer breakpoint sm El orden en el que colocaremos los modificadores será el siguiente.
 
+Colocamos el row , siempre es flex menos en el primer breakpoint sm El orden en el que colocaremos los modificadores será el siguiente.

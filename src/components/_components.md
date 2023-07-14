@@ -12,10 +12,8 @@ fecha: 19 de junio de 2023
 
 image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un diseño de sistema web
-
 ---
 
 # Componentes
 
 Los componentes son los componentes básicos reutilizables de nuestro sistema de diseño. Cada componente cumple con una interacción específica o una necesidad de interfaz de usuario, y se ha creado específicamente para trabajar en conjunto para crear patrones y experiencias de usuario intuitivas.
-

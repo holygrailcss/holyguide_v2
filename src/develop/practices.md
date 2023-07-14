@@ -7,7 +7,7 @@ titulo: Buenas Practicas
 descripcion: Lo que nunca deberemos hacer
 ---
 
-### Creando buenos patrones 
+### Creando buenos patrones
 
 Los mínimos mandamientos a seguir en maqueta.
 

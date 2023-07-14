@@ -1,5 +1,5 @@
-@import '../abstract/_all.scss';
-@import '../abstract/_categoryGrid.scss';
+@import "../abstract/_all.scss";
+@import "../abstract/_categoryGrid.scss";
 
 .grid-product-wrap--FIV {
   @include grid-product-view-bleed;
@@ -9,7 +9,7 @@
 
     &:before {
       display: block;
-      content: '';
+      content: "";
       width: 100%;
       padding-top: 66.66667%;
       background-color: $c-white;
@@ -17,7 +17,7 @@
 
     &::marker {
       display: none;
-      content: '';
+      content: "";
     }
   }
 

@@ -1,4 +1,4 @@
-@import '../abstract/_all.scss';
+@import "../abstract/_all.scss";
 
 //@import '~swiper/swiper';
 //@import '~swiper/components/scrollbar/scrollbar';
@@ -15,7 +15,9 @@ $grid-cols--1A: 3;
   @media (min-width: $break-sm) {
     margin-top: $grid-top-margin;
     margin-bottom: $grid-bottom-margin;
-    width: calc((100% + (#{$grid-view1-gutter})) / #{$grid-cols--1A} - #{$grid-view1-gutter});
+    width: calc(
+      (100% + (#{$grid-view1-gutter})) / #{$grid-cols--1A} - #{$grid-view1-gutter}
+    );
     margin-left: calc((100% + (#{$grid-view1-gutter})) / #{$grid-cols--1A});
   }
 }

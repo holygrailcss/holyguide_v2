@@ -61,9 +61,9 @@ header.interior {
   }
   .menu {
     .btn-secondary {
-      color: #292929;
+      color: $c-primary;
       background-color: transparent;
-      border: 2px solid #292929;
+      border: 2px solid $c-primary;
     }
   }
 }

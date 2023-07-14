@@ -48,19 +48,19 @@
   "social_instagram": "https://www.instagram.com/",
   "personas": [
     {
-      "imagen": "/assets/static/images/person1.jpg",
+      "imagen": "/assets/static/images/1.jpg",
       "nombre": "Persona 1",
       "posicion": "Posición 1",
       "descripcion": "Descripción 1"
     },
     {
-      "imagen": "/assets/static/images/person2.jpg",
+      "imagen": "/assets/static/images/1.jpg",
       "nombre": "Persona 2",
       "posicion": "Posición 2",
       "descripcion": "Descripción 2"
     },
     {
-      "imagen": "/assets/static/images/person3.jpg",
+      "imagen": "/assets/static/images/1.jpg",
       "nombre": "Persona 3",
       "posicion": "Posición 3",
       "descripcion": "Descripción 3"

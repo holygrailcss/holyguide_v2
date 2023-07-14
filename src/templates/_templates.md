@@ -8,7 +8,7 @@ page_section: templates
 titulo: Templates
 descripcion: Es una agrupación de componentes
 
-image: /assets/static/images/7.jpg
+image: /assets/static/images/1.jpg
 author: autor
 date: 2023-07-10
 tags: ["page"]

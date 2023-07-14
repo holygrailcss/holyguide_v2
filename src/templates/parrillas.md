@@ -6,7 +6,7 @@ page_section: templates
 
 titulo: Parrillas
 descripcion: Parrillas colección
-image: /assets/static/images/8.jpg
+image: /assets/static/images/1.jpg
 
 
 author: autor

@@ -10,7 +10,7 @@ page_section: components
 date: 2023-06-19
 fecha: 19 de junio de 2023
 
-image: /assets/static/images/8.jpg
+image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un diseño de sistema web
 
 ---

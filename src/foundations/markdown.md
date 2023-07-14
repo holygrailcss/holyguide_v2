@@ -8,7 +8,7 @@ date: 2023-06-19
 
 
 tags: ["Estructuras modulares", "web design", ""]
-image: /assets/static/images/8.jpg
+image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un diseño de sistema web
 
 eleventyComputed:

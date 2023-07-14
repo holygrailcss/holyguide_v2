@@ -9,7 +9,7 @@ descripcion: Videos tipo background
 date: Last Modified
 
 tags: ["Estructuras modulares", "web design", "foundations"]
-image: /assets/static/images/8.jpg
+image: /assets/static/images/1.jpg
 
 
 ---

@@ -12,6 +12,8 @@ layout: base.njk
   {% include '_website/hero.njk' %}
 </div>
 <div class="main-content innermarkdown ">{{ content | safe }}
+</div>
+<div class="main-content">
 
   {% call tokens.checkbox('checkbox-item-box','Checkbox básico') %} {% endcall %} 
   {% call tokens.checkboxText('checkbox-item-text','Checkbox con texto') %} {% endcall %} 

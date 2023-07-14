@@ -182,24 +182,20 @@
     <div class="code-view ">
       <div class="check-new"></div>
       <div class="checkbox-item-2">
-        <div class="">
-          <input id="checkbox18" name="checkbox18" type="checkbox" class="ng-valid"/>
-          <label for="checkbox18">
-            <div class="checkbox-circle"></div>
-            <span class="theta">checkbox-item-2</span>
-          </label>
-        </div>
-      </div>
-    </div>
-    {% set standardcode %}
-    <div class="checkbox-item-2">
-      <div class="">
         <input id="checkbox18" name="checkbox18" type="checkbox" class="ng-valid"/>
         <label for="checkbox18">
           <div class="checkbox-circle"></div>
           <span class="theta">checkbox-item-2</span>
         </label>
       </div>
+    </div>
+    {% set standardcode %}
+    <div class="checkbox-item-2">
+      <input id="checkbox18" name="checkbox18" type="checkbox" class="ng-valid"/>
+      <label for="checkbox18">
+        <div class="checkbox-circle"></div>
+        <span class="theta">checkbox-item-2</span>
+      </label>
     </div>
     {% endset %}
     <div class="code-zone">
@@ -216,8 +212,15 @@
     <div class="code-view ">
       <div class="check-new"></div>
       <div class="checkbox-radio">
-        <input id="12" name="gender" type="radio" value="F"/>
-        <label for="12">
+        <input id="1" name="gender" type="radio" value="F"/>
+        <label for="1">
+          <i class="ico-radio"></i>
+          <span class="p-xs">checkbox-radio</span>
+        </label>
+      </div>
+      <div class="checkbox-radio">
+        <input id="2" name="gender" type="radio" value="F"/>
+        <label for="2">
           <i class="ico-radio"></i>
           <span class="p-xs">checkbox-radio</span>
         </label>
@@ -225,8 +228,15 @@
     </div>
     {% set standardcode %}
     <div class="checkbox-radio">
-      <input id="12" name="gender" type="radio" value="F"/>
-      <label for="12">
+      <input id="1" name="gender" type="radio" value="F"/>
+      <label for="1">
+        <i class="ico-radio"></i>
+        <span class="p-xs">checkbox-radio</span>
+      </label>
+    </div>
+    <div class="checkbox-radio">
+      <input id="2" name="gender" type="radio" value="F"/>
+      <label for="2">
         <i class="ico-radio"></i>
         <span class="p-xs">checkbox-radio</span>
       </label>
@@ -596,6 +606,48 @@
     <div class="form-input-label-2 mb-16">
       <input type="text" id="basico1" class="input input-notouch" placeholder="Nombre">
       <label for="basico1">Input Básico</label>
+    </div>
+    {% endset %}
+    <div class="code-zone">
+      <pre><code class=" language-markup">{{standardcode}}</code></pre>
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro inputIpod(elementType = '', explicacion = '') %}
+  <h3>{{ elementType }}
+  </h3>
+  <p class="p-xs">{{ explicacion }}</p>
+  <div class="mb-32 ">
+    <div class="code-view ">
+      <div class="check-new"></div>
+      {# ---------- #}
+      <div class="row">
+        <div class="col-xs-6 ">
+          <label class="p-xs" for=""> Input</label>
+          <input type="text" placeholder="input" class="input">
+        </div>
+        <div class="col-xs-6 is-error">
+          <label class="p-xs" for=""> is-error</label>
+          <input type="text" placeholder="is-error" class="input">
+        </div>
+        <div class="col-xs-6 ok-input">
+          <label class="p-xs" for=""> ok-input</label>
+          <input type="text" placeholder="ok-input" class="input">
+        </div>
+        <div class="col-xs-6 disabled-input">
+          <label class="p-xs" for=""> disabled-input</label>
+          <input type="text" placeholder="disabled-input" class="input">
+        </div>
+      </div>
+      {# ---------- #}
+    </div>
+    {% set standardcode %}
+    <div class='row'>
+      <div class='col-xs-6 is-error | ok-input | disabled-input'>
+        <label class='p-xs' for=''>Input</label>
+        <input type='text' placeholder='input' class='input'/>
+      </div>
     </div>
     {% endset %}
     <div class="code-zone">

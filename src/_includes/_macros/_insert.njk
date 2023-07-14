@@ -1160,7 +1160,7 @@
 	<h3>{{ elementType }}
 	</h3>
 	<p class="p-xs">{{ explicacion }}</p>
-	<div class="code-view ">
+	<div class="code-view">
 		<div class="check-new"></div>
 		<a class="{{ elementType }}" href="">
 			{{ elementType }}
@@ -1756,6 +1756,56 @@
 		</div>
 	</div>
 {% endmacro %}
+
+
+{% macro inputPrefix(elementType = '', explicacion = '') %}
+	<h3>{{ elementType }}
+	</h3>
+	<p class="p-xs">{{ explicacion }}</p>
+	<div class="mb-32 ">
+		<div class="code-view ">
+			<div class="check-new"></div>
+			{# ---------- #}
+			<div class="form-prefix" action="">
+				<div class="select ">
+					<select>
+						<option value="+34">+34</option>
+						<option value="+106">+106</option>
+						<option value="+3">+3</option>
+						<option value="+1002">+1002</option>
+					</select>
+				</div>
+				<div class="form-input-label-2">
+					<input type="tel" id="t1" class="input" placeholder="Teléfono" />
+					<label for="t1">Teléfono </label>
+				</div>
+				<button class="btn btn-primary">VERIFICAR TELEFONO</button>
+			</div>
+			{# ---------- #}
+		</div>
+		{% set standardcode %}
+		<div class="form-prefix" action="">
+			<div class="select ">
+				<select>
+					<option value="+34">+34</option>
+					<option value="+106">+106</option>
+					<option value="+3">+3</option>
+					<option value="+1002">+1002</option>
+				</select>
+			</div>
+			<div class="form-input-label-2">
+				<input type="tel" id="t1" class="input" placeholder="Teléfono" />
+				<label for="t1">Teléfono </label>
+			</div>
+			<button class="btn btn-primary">VERIFICAR TELEFONO</button>
+		</div>
+		{% endset %}
+		<div class="code-zone">
+			<pre><code class=" language-markup">{{standardcode}}</code></pre>
+		</div>
+	</div>
+{% endmacro %}
+
 
 {% macro inputIpod(elementType = '', explicacion = '') %}
 	<h3>{{ elementType }}

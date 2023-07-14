@@ -11,16 +11,16 @@ layout: base.njk
 </div>
 <div class="main-content">
 
-  {% call tokens.link('link-line','Link básico') %}
+  {% call insert.link('link-line','Link básico') %}
   {% endcall %}
 
-  {% call tokens.link('link-raw','Link con una línea o múltiple') %}
+  {% call insert.link('link-raw','Link con una línea o múltiple') %}
   {% endcall %}
 
-  {% call tokens.linkPre('link-svg-pre','Link con icono svg-icon al inicio') %}
+  {% call insert.linkPre('link-svg-pre','Link con icono svg-icon al inicio') %}
   {% endcall %}
 
-  {% call tokens.linkPost('link-svg-post','Link con icono svg-icon al final') %}
+  {% call insert.linkPost('link-svg-post','Link con icono svg-icon al final') %}
   {% endcall %}
 
 </div>

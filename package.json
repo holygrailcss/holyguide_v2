@@ -45,5 +45,22 @@
     "rellax": "^1.12.1",
     "sass": "^1.62.0",
     "prettier": "^2.8.4"
-  }
+  },
+
+"prettier": {
+  "overrides": [
+    {
+      "files": "**/*.md",
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": "**/*.njk",
+      "options": {
+        "parser": "nunjucks"
+      }
+    }
+  ]
+}
 }

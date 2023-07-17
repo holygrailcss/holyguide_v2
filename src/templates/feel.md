@@ -1,7 +1,7 @@
 ---
 layout: _paginas/templates/_feel.njk
 permalink: /feel/
-page_section: feel
+page_section: templates
 
 titulo: Feel
 descripcion: Plantillas para feel

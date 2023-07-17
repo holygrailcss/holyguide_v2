@@ -1,9 +1,9 @@
 ---
-layout: _parrillas/_parrillas-collection.njk
-permalink: /parrillas-collection/
+layout: _parrillas/_parrillas-index.njk
+permalink: /parrillas-index/
 page_section: templates
 
-titulo: Parrillas
+titulo: Parrillas Index
 descripcion: Parrillas colección
 image: /assets/static/images/1.jpg
 

@@ -17749,6 +17749,17 @@ ul {
   align-items: start;
 }
 
+.masonry-8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  align-items: start;
+}
+.masonry-8 img {
+  border: 1px solid #eaeaea;
+}
+
 code {
   margin: 0 1px;
   padding: 0.2em 0.4em;
@@ -17761,4 +17772,144 @@ code {
 .texto-ellipsis {
   height: 50px;
   overflow: hidden;
+}
+
+.modal-container {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.modal-container.modal-open {
+  display: block;
+  visibility: visible;
+}
+.modal-container .modalx-backdrop {
+  background-color: rgba(41, 41, 41, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.modal-container .modalx-backdrop.bg-transparent {
+  background-color: rgba(41, 41, 41, 0);
+}
+.modal-container .modal-content {
+  position: relative;
+  z-index: 1;
+}
+.modal-container .modalx {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-container .modalx .modalx-dialog {
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  max-height: calc(100vh - 24px);
+  overflow-x: auto;
+}
+.modal-container .modalx .modalx-dialog .modalx-content {
+  position: relative;
+}
+.modal-container .modalx .modalx-dialog .modalx-close {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.modal-container .modalx .modalx-dialog .modalx-close.hidden {
+  display: none;
+}
+.modal-container .modalx .modalx-dialog .modalx-body {
+  width: 100%;
+}
+.modal-container .start-options {
+  position: absolute;
+  z-index: 100;
+}
+.modal-container .start-options.hidden {
+  display: none;
+}
+.modal-container .sidebar-options {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: auto;
+  background: rgba(255, 255, 255, 0.2666666667);
+  padding: 24px;
+  height: 100%;
+}
+.modal-container .sidebar-options.visible {
+  display: block;
+}
+.modal-container .sidebar-options .content-options {
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px;
+  /* Track */
+  /* Handle */
+}
+.modal-container .sidebar-options .content-options::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+  background: transparent;
+}
+.modal-container .sidebar-options .content-options::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.modal-container .sidebar-options .content-options::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+  background: #ffffff !important;
+}
+@media (max-width: 767px) {
+  .modal-container .sidebar-options {
+    height: auto;
+    width: 100%;
+    padding: 16px 0px 0px;
+  }
+  .modal-container .sidebar-options .content-options {
+    flex-direction: row;
+  }
+}
+
+/* Z-index of #mask must lower than #boxes .window */
+#mask {
+  position: fixed;
+  z-index: 9000;
+  background-color: rgba(0, 0, 0, 0.41);
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#boxes .window {
+  position: fixed;
+  width: 900px;
+  display: none;
+  z-index: 9999;
+  max-height: calc(100vh - 10%);
+  overflow: auto;
+  padding: 20px;
+  top: 5%;
+  background-color: #fff;
+}
+
+/* Customize your modal window here, you can add background image too */
+#boxes .dialog {
+  width: 375px;
+  height: 203px;
+  background-color: #fff;
 }

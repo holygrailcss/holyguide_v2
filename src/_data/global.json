@@ -85,6 +85,42 @@
     { "placeholder": "bg-light" }
   ],
 
+  "templates": [
+    { "parrilla": "template-1F"},
+    { "parrilla": "template-1A"},
+    { "parrilla": "template-1CC"},
+    { "parrilla": "template-1E"},
+    { "parrilla": "template-1G"},
+    { "parrilla": "template-1LE"},
+    { "parrilla": "template-2A"},
+    { "parrilla": "template-2B"},
+    { "parrilla": "template-2C"},
+    { "parrilla": "template-2CBG"},
+    { "parrilla": "template-2CBG2"},
+    { "parrilla": "template-2D"},
+    { "parrilla": "template-2DS"},
+    { "parrilla": "template-2E"},
+    { "parrilla": "template-2FDoble"},
+    { "parrilla": "template-2FH"},
+    { "parrilla": "template-2FV"},
+    { "parrilla": "template-2G"},
+    { "parrilla": "template-2SD"},
+    { "parrilla": "template-3A"},
+    { "parrilla": "template-3S"},
+    { "parrilla": "template-4A"},
+    { "parrilla": "template-4S"},
+    { "parrilla": "template-4B"},
+    { "parrilla": "template-5A"},
+    { "parrilla": "template-6S"},
+    { "parrilla": "template-G4"},
+    { "parrilla": "template-FIV"},
+    { "parrilla": "template-VIT"},
+    { "parrilla": "template-SEC"},
+    { "parrilla": "template-MINIGRID"},
+    { "parrilla": "template-MINIGRID-INFO"},
+    { "parrilla": "template-SEPARATOR_12_5"},
+    { "parrilla": "template-SEPARATOR_25"}
+  ],
   "ratios": [
     { "ratio": "2-3" },
     { "ratio": "3-4" },
@@ -95,7 +131,6 @@
     { "ratio": "16-9" },
     { "ratio": "4-2" },
     { "ratio": "21-9" }
-
   ],
   "coloresPrimarios": [
     {

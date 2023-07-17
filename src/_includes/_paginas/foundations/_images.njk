@@ -12,10 +12,10 @@ layout: base.njk
     <div class="row">
       <div class="col-xs-12">
         <div class="masonry">
-          {% for ratio in global.placeholders %}
-          <div class="">
-            <img src="  https://holygrailcss.github.io/assets/placeholder/{{ratio.ratio}}.jpg" alt="">
-            <div class=" text-12-r"> {{ratio.ratio}}.jpg </div>
+          {% for global in global.placeholders %}
+          <div class="mb-8">
+            <img class="mb-8" src="  https://holygrailcss.github.io/assets/placeholder/{{global.placeholder}}.jpg" alt="">
+            <div class=" text-12-r"> {{global.placeholder}}.jpg </div>
           </div>
           {% endfor %}
         </div>

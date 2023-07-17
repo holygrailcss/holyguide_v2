@@ -8,7 +8,7 @@ descripcion: Alturas y minimas alturas
 date: 2023-06-19
 fecha: 19 de junio de 2023
 tags: ['Estructuras modulares', 'web design', 'foundations']
-image: /assets/static/images/1.jpg
+image: /assets/static/components/heights.jpg
 ---
 
 Alturas fijas o variables que permiten dar fijar estándares en los diferentes elementos que lo requieran.

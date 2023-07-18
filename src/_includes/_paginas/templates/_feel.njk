@@ -3,33 +3,36 @@ layout: base.njk
 title: feel
 permalink: /feel/
 ---
+{% import "_macros/_token.njk" as tokens %}
+{% import "_macros/_insert.njk" as insert %}
 
 <div class="container-fluid">
-  {% include '_website/hero.njk' %}
+	{% include '_website/hero.njk' %}
 </div>
-{% block content %}
 
-  <div class="main-content">
-	{# <section class="mb-32 mt-32">
-    <div class="row">
-      <div class="col-xs-12">
-        {% call insert.component2('feelcard', '550px','https://www.figma.com/file/zGMt5sLgI08YbUfc7vzITY/33780---Redesign-of-the-points-and-voucher-system---MD-FEEL') %} {% endcall %}
-      </div>
-    </div>
-  </section> #}
 
-    <div class="row mb-48">
-      <div class="col-xs-12">
-        <h3 class="h6 ">Timeline Vertical</h3>
-        <p class="p1 mb-16">
+	<section class="mb-32 mt-32">
+		<div class="row">
+			<div class="col-xs-12">
+				{% call insert.component2('feelcard', '450px','https://www.figma.com/file/zGMt5sLgI08YbUfc7vzITY/33780---Redesign-of-the-points-and-voucher-system---MD-FEEL') %}
+				{% endcall %}
+			</div>
+		</div>
+	</section>
+<div class="main-content">
+	<section class="mb-32 mt-32">
+		<div class="row mb-48">
+			<div class="col-xs-12">
+				<h3 class="h6 ">Timeline Vertical</h3>
+				<p class="p1 mb-16">
           Incluida en la versión de holygrail nº70
         </p>
-        <div class="box4 my-8">
-          <div class="ico-ball mr-16">
-            <svg-icon>
-              <div>
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
+				<div class="box4 my-8">
+					<div class="ico-ball mr-16">
+						<svg-icon>
+							<div>
+								<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
                     d="M6.65628 1.77402C7.08185 1.59323 7.53842 1.5 7.99983 1.5C8.46124 1.5 8.91782 1.59323 9.34339 1.77402C9.76893 1.95481
@@ -45,23 +48,23 @@ permalink: /feel/
                       2.69441C7.34968 2.56595 7.67331 2.5 7.99983 2.5C8.32636 2.5 8.64999 2.56595 8.95238 2.69441C9.25479 2.82289 9.53041
                       3.01155 9.76315 3.25026C9.99592 3.489 10.1812 3.7731 10.3079 4.08667C10.362 4.22076 10.4049 4.35904 10.4364 4.5Z"
                     fill="#292929"></path>
-                </svg>
-              </div>
-            </svg-icon>
-            <div class="ico-count">1</div>
-          </div>
-          <div class="my-8">
-            <div class="mb-8">
-              <div class="p-xs">Pending</div>
-              <div class="p-xs">+00000pts</div>
-            </div>
-            <div class="mb-8">
-              <div class='c-dark-grey p-xs'>Description</div>
-              <div class='c-dark-grey p-xs'>00/00/2023</div>
-            </div>
-          </div>
-        </div>
-        <pre><code class='language-markup'>
+								</svg>
+							</div>
+						</svg-icon>
+						<div class="ico-count">1</div>
+					</div>
+					<div class="my-8">
+						<div class="mb-8">
+							<div class="p-xs">Pending</div>
+							<div class="p-xs">+00000pts</div>
+						</div>
+						<div class="mb-8">
+							<div class='c-dark-grey p-xs'>Description</div>
+							<div class='c-dark-grey p-xs'>00/00/2023</div>
+						</div>
+					</div>
+				</div>
+				<pre><code class='language-markup'>
       {{ "
         <div class='box4 my-8'>
           <div class='ico-ball mr-16'>
@@ -80,22 +83,21 @@ permalink: /feel/
           </div>
         </div> " | escape }}</code>
       </pre>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
 
-
-        <h3 class="h6 ">Paginador Timeline Vertical</h3>
-        <p class="p1 mb-16">
+				<h3 class="h6 ">Paginador Timeline Vertical</h3>
+				<p class="p1 mb-16">
           Para progresar la barra, hay que cambiar el width de <code>progress-status</code>
-        </p>
-        <div class="px-24 pt-16 pb-16">
-          <div class="mb-16 text-center">
-            <button class="btn btn-link">
+				</p>
+				<div class="px-24 pt-16 pb-16">
+					<div class="mb-16 text-center">
+						<button class="btn btn-link">
               Ver más
               <svg class="ml-8" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
+								<path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
                   d="M2.6326 10.5455C2.8199 10.3426 3.13623 10.3299 3.33914 10.5172L7.5 14.358L7.5 0.5C7.5 0.223858 7.72386 0 8 0C8.27614 0
@@ -103,21 +105,21 @@ permalink: /feel/
                     11.0647 13.3391 11.252L8.33914 15.8674C8.14761 16.0442 7.85239 16.0442 7.66086 15.8674L2.66086 11.252C2.45795 11.0647
                     2.4453 10.7484 2.6326 10.5455Z"
                   fill="#292929"/>
-              </svg>
-            </button>
-          </div>
-          <div class="mb-16">
-            <div class="progressbar">
-              <div class="progressbar-status bg-feel" style="width: 40%;"></div>
-            </div>
-          </div>
-          <div class="text-center">
-            <p class="p-s c-dark-grey">
+							</svg>
+						</button>
+					</div>
+					<div class="mb-16">
+						<div class="progressbar">
+							<div class="progressbar-status bg-feel" style="width: 40%;"></div>
+						</div>
+					</div>
+					<div class="text-center">
+						<p class="p-s c-dark-grey">
               10 de 25
             </p>
-          </div>
-        </div>
-        <pre><code class='language-markup'>
+					</div>
+				</div>
+				<pre><code class='language-markup'>
       {{ '
 	    <div class="px-24 pt-16 pb-16">
           <div class="mb-16 text-center">
@@ -138,7 +140,7 @@ permalink: /feel/
           </div>
         </div> ' | escape }}</code>
       </pre>
-      </div>
-    </div>
-  </div>
-{% endblock %}
+			</div>
+		</div>
+	</section>
+</div>

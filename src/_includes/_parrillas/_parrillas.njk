@@ -3,12 +3,11 @@ layout: base.njk
 title: parrillas index
 permalink: /parrillas/
 ---
-
-<div class="container-full">
-	<div class="row">
-		<div class="col-xs-12 height-sm"></div>
-	</div>
+<div class="container-fluid">
+  {% include '_website/hero.njk' %}
 </div>
+
+ {{ content | safe }}</div>
 
 
 <div id="mask"></div>
@@ -17,8 +16,8 @@ permalink: /parrillas/
 
 <div class="masonry-8">
 	{% for global in global.templates %}
-	<a href="#{{ global.parrilla }}" name="modal">
-		{{ global.parrilla }} 
+	<a class="text-center" href="#{{ global.parrilla }}" name="modal">
+		<div class="text-12-r mb-8">{{ global.parrilla }} </div>
    <img src="/assets/static/parrillas/{{ global.parrilla }}.jpg"> 
 		 </a>
 	{% endfor %}
@@ -28,15 +27,21 @@ permalink: /parrillas/
 </div>
 <div id="boxes">
 	{% for global in global.templates %}
-	<div id="{{ global.parrilla }}" class="window">
-	  <b>Testing of Modal Window</b> |
-	  <a href="#" class="close">Close it</a>
-	  {% include 'parrillas/' + global.parrilla + '.njk' %}
-  <div>
+	<div id="{{ global.parrilla }}" class="window pt-24">
+	
+	
+
+  <div class="modalheader">
     <button class="size-change" data-size="mobile">Mobile</button>
     <button class="size-change" data-size="tablet">Tablet</button>
     <button class="size-change" data-size="desktop">Desktop</button>
+	  <a href="#" class="closemodal">Close it</a>
+
   </div>
+
+
+	  {% include 'parrillas/' + global.parrilla + '.njk' %}
+
 	</div>
 	{% endfor %}
 

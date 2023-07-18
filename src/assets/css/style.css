@@ -17915,3 +17915,14 @@ code {
   height: 203px;
   background-color: #fff;
 }
+
+.modalheader {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.closemodal {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

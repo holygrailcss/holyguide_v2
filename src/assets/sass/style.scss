@@ -1,6 +1,5 @@
 @import "base/_fonts.scss";
 @import "abstract/_setup.scss";
-
 $space-left: calc(((100vw - 1280px) / 2));
 $width-left: calc((1280px + (100vw - 1280px) / 2));
 @import "../../../node_modules/holygrailcss/scss/style.scss";
@@ -16,9 +15,7 @@ $width-left: calc((1280px + (100vw - 1280px) / 2));
 @import "./_dummyproduct.scss";
 @import "./guia.scss";
 @import "./theme.scss";
-
 @import "parrillas/_all.scss";
-
 //@import "parrillas/*";
 $primary-color: var(--primary-color);
 $c-primary: var(--c-primary);
@@ -27,7 +24,6 @@ $bg-dark: var(--bg-dark);
 $c-bg-dark: var(--c-bg-dark);
 $bg-light: var(--bg-light);
 $c-bg-light: var(--c-bg-light);
-
 body {
   overflow-x: hidden;
   color: $primary-color;
@@ -63,11 +59,9 @@ a {
     color: white;
   }
 }
-
 .header-img {
   position: relative;
 }
-
 .ttc {
   text-transform: capitalize;
 }
@@ -87,7 +81,6 @@ a {
   left: 0;
   z-index: 10;
   padding: 0 8px;
-
   background-color: #a1bfa0;
   color: white;
   font-size: 12px;
@@ -97,7 +90,6 @@ a {
 ul {
   position: relative;
 }
-
 .list-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -106,7 +98,6 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .masonry {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -114,22 +105,18 @@ ul {
   width: 100%;
   align-items: start;
 }
-
 .masonry-8 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 16px;
   width: 100%;
   align-items: start;
-
   max-width: 1200px;
   margin: 0 auto;
-  
-  img{
+  img {
     border: 1px solid #eaeaea;
   }
 }
-
 code {
   margin: 0 1px;
   padding: 0.2em 0.4em;
@@ -138,14 +125,10 @@ code {
   border: 1px solid rgba(5, 5, 5, 0.06);
   border-radius: 3px;
 }
-
 .texto-ellipsis {
   height: 50px;
-
   overflow: hidden;
 }
-
-
 .modal-container {
   display: none;
   visibility: hidden;
@@ -155,12 +138,10 @@ code {
   top: 0;
   left: 0;
   z-index: 100;
-
   &.modal-open {
     display: block;
     visibility: visible;
   }
-
   .modalx-backdrop {
     background-color: rgba($primary, 0.8);
     width: 100%;
@@ -172,25 +153,21 @@ code {
       background-color: rgba($primary, 0);
     }
   }
-
   .modal-content {
     position: relative;
     z-index: 1;
   }
-
   .modalx {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-
     .modalx-dialog {
       width: 100%;
       margin: auto;
       background-color: $c-white;
       max-height: calc(100vh - 24px);
       overflow-x: auto;
-
       .modalx-content {
         position: relative;
       }
@@ -207,7 +184,6 @@ code {
       }
     }
   }
-
   .start-options {
     position: absolute;
     z-index: 100;
@@ -215,7 +191,6 @@ code {
       display: none;
     }
   }
-
   .sidebar-options {
     display: none;
     position: absolute;
@@ -240,13 +215,11 @@ code {
         height: 5px;
         background: transparent;
       }
-
       /* Track */
       &::-webkit-scrollbar-track {
         border-radius: 10px;
         background: rgba($c-white, 0.2);
       }
-
       /* Handle */
       &::-webkit-scrollbar-thumb {
         border-radius: 10px !important;
@@ -263,7 +236,6 @@ code {
     }
   }
 }
-
 /* Z-index of #mask must lower than #boxes .window */
 #mask {
   position: fixed;
@@ -272,10 +244,8 @@ code {
   display: none;
   top: 0;
   left: 0;
-  bottom: 0; 
+  bottom: 0;
 }
-
-  
 #boxes .window {
   position: fixed;
   width: 900px;
@@ -287,11 +257,19 @@ code {
   top: 5%;
   background-color: #fff;
 }
-
-
 /* Customize your modal window here, you can add background image too */
 #boxes .dialog {
-  width:375px; 
-  height:203px;
+  width: 375px;
+  height: 203px;
   background-color: #fff;
+}
+
+.modalheader{
+  position: relative;
+  padding-bottom: 20px;
+}
+.closemodal {
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }

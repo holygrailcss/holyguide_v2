@@ -27,7 +27,7 @@ $(document).ready(function() {
   });
 
   // Si se hace clic en el botón de cerrar
-  $('.window .close').click(function(e) {
+  $('.window .closemodal').click(function(e) {
     e.preventDefault();
     $('#mask, .window').hide();
   });

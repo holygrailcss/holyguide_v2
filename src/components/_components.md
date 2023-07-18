@@ -1,6 +1,6 @@
 ---
 layout: _paginas/components/_components.njk
-permalink: /componentes/
+permalink: /components/
 
 titulo: Componentes
 descripcion: Cada componente cumple con una interacción específica o una necesidad de interfaz de usuario, y se ha creado específicamente para trabajar en conjunto para crear patrones y experiencias de usuario intuitivas.

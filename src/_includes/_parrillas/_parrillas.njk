@@ -3,9 +3,48 @@ layout: base.njk
 title: parrillas index
 permalink: /parrillas/
 ---
-<div class="container-fluid">
-  {% include '_website/hero.njk' %}
-</div>
+
+
+
+
+
+
+
+<div class="container-fluid">{% include '_website/hero.njk' %}</div>
+
+
+<section>
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="main-content innermarkdown">
+
+        {{ content | safe }}</div>
+
+        <div class="list-grid masonry-8"> 
+
+
+
+	{% for global in global.templates %}
+	<a class="text-center" href="#{{ global.parrilla }}" name="modal">
+<div class="text-12-r mb-8">{{ global.parrilla.split('-')[1] }}</div>
+   <img src="/assets/static/parrillas/{{ global.parrilla }}.jpg"> 
+		 </a>
+	{% endfor %}
+	
+
+		
+
+
+
+        </div>
+
+        
+    </div>
+  </div>
+</section>
+
+
+
 
  {{ content | safe }}</div>
 
@@ -14,17 +53,7 @@ permalink: /parrillas/
 
 
 
-<div class="masonry-8">
-	{% for global in global.templates %}
-	<a class="text-center" href="#{{ global.parrilla }}" name="modal">
-		<div class="text-12-r mb-8">{{ global.parrilla }} </div>
-   <img src="/assets/static/parrillas/{{ global.parrilla }}.jpg"> 
-		 </a>
-	{% endfor %}
-	
 
-		
-</div>
 <div id="boxes">
 	{% for global in global.templates %}
 	<div id="{{ global.parrilla }}" class="window pt-24">

@@ -5,7 +5,7 @@ page_section: feel
 
 titulo: Feel
 descripcion: Plantillas para feel
-image: /assets/static/images/1.jpg
+image: /assets/static/templates/feel.jpg
 
 author: autor
 date: 2023-07-10

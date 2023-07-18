@@ -1,5 +1,5 @@
 ---
-layout: _paginas/templates/_parrillas.njk
+layout: _parrillas/_parrillas.njk
 permalink: /parrillas/
 page_section: templates
 

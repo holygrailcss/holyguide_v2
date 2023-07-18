@@ -121,6 +121,10 @@ ul {
   gap: 16px;
   width: 100%;
   align-items: start;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  
   img{
     border: 1px solid #eaeaea;
   }

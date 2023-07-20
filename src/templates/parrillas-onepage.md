@@ -1,5 +1,5 @@
 ---
-layout: _parrillas/_parrillas-onepage.njk
+layout: _paginas/templates/_parrillas/_parrillas-onepage.njk
 permalink: /parrillas-onepage/
 
 title: Parrillas

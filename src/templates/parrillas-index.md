@@ -1,5 +1,5 @@
 ---
-layout: _parrillas/_parrillas-index.njk
+layout: _paginas/templates/_parrillas/_parrillas-index.njk
 permalink: /parrillas-index/
 page_section: templates
 
@@ -9,6 +9,6 @@ image: /assets/static/images/1.jpg
 
 author: autor
 date: 2023-07-10
-tags: ['page']
+tags: ["page"]
 imageAlt: Contacta
 ---

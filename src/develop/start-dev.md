@@ -1,5 +1,5 @@
 ---
-layout: _paginas/info/_start-dev.njk
+layout: _paginas/develop/_start-dev.njk
 permalink: /start-dev/
 page_section: develop
 

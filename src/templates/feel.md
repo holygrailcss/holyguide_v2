@@ -9,6 +9,6 @@ image: /assets/static/templates/feel.jpg
 
 author: autor
 date: 2023-07-10
-tags: ['templates']
+tags: ["templates"]
 imageAlt: Contacta
 ---

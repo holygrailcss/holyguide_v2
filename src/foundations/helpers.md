@@ -7,7 +7,7 @@ descripcion: .
 
 date: Last Modified
 fecha: 19 de junio de 2023
-tags: ['Estructuras modulares', 'web design', 'foundations']
+tags: ["Estructuras modulares", "web design", "foundations"]
 image: /assets/static/components/helpers.jpg
 imageAlt: Ilustración de un diseño de sistema web
 ---

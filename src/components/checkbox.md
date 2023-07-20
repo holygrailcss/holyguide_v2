@@ -7,7 +7,7 @@ descripcion: Un checkbox en un design system es un elemento de interfaz que perm
 
 date: 2023-06-19
 fecha: 19 de junio de 2023
-tags: ['Estructuras modulares', 'web design', 'components']
+tags: ["Estructuras modulares", "web design", "components"]
 image: /assets/static/components/checkbox.jpg
 imageAlt: Ilustración de un diseño de sistema web
 ---

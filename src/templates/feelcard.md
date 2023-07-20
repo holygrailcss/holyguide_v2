@@ -1,5 +1,5 @@
 ---
-layout: _components/feelcard.njk
+layout: _elements/_components/feelcard.njk
 permalink: /feelcard/
 page_section: templates
 

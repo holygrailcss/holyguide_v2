@@ -1,6 +1,6 @@
 ---
-layout: _paginas/templates/_parrillas/_parrillas-collection.njk
-permalink: /parrillas-collection/
+layout: _tokens/_templates/_parrillas-collection.njk
+permalink: /_parrillas-collection/
 page_section: templates
 
 titulo: Parrillas

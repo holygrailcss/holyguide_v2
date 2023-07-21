@@ -1,4 +1,4 @@
-{% macro template(component = '', size = '', componentfigma = "", descripcion = '') %}
+{% macro template(ruta = '',component = '', size = '', componentfigma = "", descripcion = '') %}
 	<section class="mb-32 mt-32 ">
 		<div class="resize-container">
 			<div class="resize-bar p-xs">
@@ -11,7 +11,7 @@
                 </a>
 				</div>
 				<div class="resize-snip">
-					<a class="" target="_blank" href="_tokens/_templates/{{ component }}">
+					<a class="" target="_blank" href="/{{ component }}">
                     VER
                 </a>
 				</div>
@@ -23,7 +23,7 @@
 			<div class="viewcode">
 				<pre><code class="language-markup">{% set standardcode %} 
                 
-                {% include '../_tokens/_templates/'+component +'.njk' %}
+                {% include   ruta+component +'.njk' %}
 				{% endset %}{{standardcode}}</code></pre> 
 			</div>
 			<div class="main-content">

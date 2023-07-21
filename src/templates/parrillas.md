@@ -5,10 +5,10 @@ page_section: templates
 
 titulo: Parrillas
 descripcion: Parrillas colección
-image: /assets/static/images/1.jpg
+image: /assets/static/parrillas/template-1A.jpg
 
 author: autor
 date: 2023-07-10
 tags: ["templates"]
-imageAlt: Contacta
+imageAlt: parrillas
 ---

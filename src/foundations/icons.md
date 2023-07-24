@@ -2,7 +2,7 @@
 layout: _paginas/foundations/_icons.njk
 permalink: /icons/
 
-titulo: icons
+titulo: Iconos
 descripcion:
 
 date: 2023-06-19

@@ -3,12 +3,12 @@ layout: _paginas/templates/_parrillas/_parrillas-onepage.njk
 permalink: /parrillas-onepage/
 page_section: templates
 
-title: Parrillas
-subtitle: Parrillas colección
-image: /assets/static/images/7.jpg
-author: autor
-date: 2021-05-01
+titulo: Parrillas onepage
+descripcion: Todas las parrillas en una página
+image: /assets/static/templates/no-preview.jpg
+
+date: 2023-06-19
+fecha: 19 de junio de 2023
 tags: ["templates"]
-imageAlt: Contacta
-descripcion: Contacta con Estructuras modulares.com
+imageAlt: Ilustración de un diseño de sistema web
 ---

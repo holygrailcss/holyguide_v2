@@ -5,7 +5,7 @@ page_section: templates
 
 titulo: Footer
 descripcion: Plantillas para el footer
-image: /assets/static/templates/feel.jpg
+image: /assets/static/templates/no-preview.jpg
 
 author: autor
 date: 2023-07-10

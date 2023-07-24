@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-G4.njk
-permalink: /_tokens/_templates/parrillas/template-G4/
+permalink: /template-G4/
 page_section: templates
 
 titulo: template-G4

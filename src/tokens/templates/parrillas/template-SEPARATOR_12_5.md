@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-SEPARATOR_12_5.njk
-permalink: /_tokens/_templates/parrillas/template-SEPARATOR_12_5/
+permalink: /template-SEPARATOR_12_5/
 page_section: templates
 
 titulo: template-SEPARATOR_12_5

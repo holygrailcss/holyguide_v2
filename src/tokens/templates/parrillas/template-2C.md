@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-2C.njk
-permalink: /_tokens/_templates/parrillas/template-2C/
+permalink: /template-2C/
 page_section: templates
 
 titulo: template-2C

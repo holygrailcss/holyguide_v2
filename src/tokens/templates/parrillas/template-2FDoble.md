@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-2FDoble.njk
-permalink: /_tokens/_templates/parrillas/template-2FDoble/
+permalink: /template-2FDoble/
 page_section: templates
 
 titulo: template-2FDoble

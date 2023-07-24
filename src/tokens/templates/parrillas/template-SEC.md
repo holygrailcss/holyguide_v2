@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-SEC.njk
-permalink: /_tokens/_templates/parrillas/template-SEC/
+permalink: /template-SEC/
 page_section: templates
 
 titulo: template-SEC

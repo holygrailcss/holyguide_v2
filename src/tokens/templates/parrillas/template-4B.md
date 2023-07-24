@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-4B.njk
-permalink: /_tokens/_templates/parrillas/template-4B/
+permalink: /template-4B/
 page_section: templates
 
 titulo: template-4B

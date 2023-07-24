@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-1G.njk
-permalink: /_tokens/_templates/parrillas/template-1G/
+permalink: /template-1G/
 page_section: templates
 
 titulo: template-1G

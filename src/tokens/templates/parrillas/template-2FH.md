@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-2FH.njk
-permalink: /_tokens/_templates/parrillas/template-2FH/
+permalink: /template-2FH/
 page_section: templates
 
 titulo: template-2FH

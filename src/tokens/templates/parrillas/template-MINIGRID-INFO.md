@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-MINIGRID-INFO.njk
-permalink: /_tokens/_templates/parrillas/template-MINIGRID-INFO/
+permalink: /template-MINIGRID-INFO/
 page_section: templates
 
 titulo: template-MINIGRID-INFO

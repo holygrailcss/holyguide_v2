@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-3S.njk
-permalink: /_tokens/_templates/parrillas/template-3S/
+permalink: /template-3S/
 page_section: templates
 
 titulo: template-3S

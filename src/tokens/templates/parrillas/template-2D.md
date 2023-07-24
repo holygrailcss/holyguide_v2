@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-2D.njk
-permalink: /_tokens/_templates/parrillas/template-2D/
+permalink: /template-2D/
 page_section: templates
 
 titulo: template-2D

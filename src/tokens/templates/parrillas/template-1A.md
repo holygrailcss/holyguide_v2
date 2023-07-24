@@ -1,6 +1,6 @@
 ---
 layout: /_tokens/_templates/parrillas/template-1A.njk
-permalink: /_tokens/_templates/parrillas/template-1A/
+permalink: /template-1A/
 page_section: templates
 
 titulo: template-1A
